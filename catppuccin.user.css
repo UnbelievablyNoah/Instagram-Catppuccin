@@ -6,7 +6,6 @@
 @author         Me
 ==/Instagram== */
 
-@-moz-document domain("instagram.com") {
     body::-webkit-scrollbaar {
         overflow: hidden;
        /* Hide scrollbars */
@@ -88857,4 +88856,3 @@
     .bootloader_sniYZpJ {
         display: block!important;
    }
-}
