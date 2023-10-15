@@ -9,7 +9,6 @@
 @var checkbox colourSVG "Colour the SVGs" 1
 ==/Instagram== */
 
-@-moz-document domain("instagram.com") {
     body::-webkit-scrollbaar {
         overflow: hidden;
        /* Hide scrollbars */
@@ -88864,4 +88863,3 @@
     .bootloader_sniYZpJ {
         display: block!important;
    }
-}
