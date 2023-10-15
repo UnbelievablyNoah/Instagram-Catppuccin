@@ -4,9 +4,9 @@
 @version        1.0.0
 @homepageURL    https://github.com/UnbelievablyNoah/Instagram-Catppuccin
 @description    A new userstyle
-@preprocessor less
+@preprocessor stylus
 @author         Me
-@var select darkTheme "Dark Theme" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*"]
+@var checkbox colourSVG "Colour the SVGs" 1
 ==/Instagram== */
 
 @-moz-document domain("instagram.com") {
@@ -205,15 +205,19 @@
         background-color: #f38ba8 !important 
    }
    */
+
+   #colourSVG(@colourSVG) when (@colourSVG =0) {
+    * {
+        stroke: #cdd6f4 !important;
+   }
+}
     * {
         font-weight: 700;
    }
     .wbloks_1 {
         color: rgb(var(--ig-link)) !important;
    }
-    * {
-        stroke: #cdd6f4 !important;
-   }
+    
     *::-webkit-scrollbar {
         overflow: hidden;
        /* Hide scrollbars */
