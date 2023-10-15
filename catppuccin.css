@@ -205,11 +205,10 @@
    }
    */
 
-   #colourSVG(@colourSVG) when (@colourSVG =0) {
     * {
         stroke: #cdd6f4 !important;
    }
-}
+
     * {
         font-weight: 700;
    }
