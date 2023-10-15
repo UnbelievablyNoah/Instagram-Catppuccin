@@ -2,10 +2,14 @@
 @name           https://www.instagram.com/ - 9/23/2023, 3:39:43 PM
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
+@homepageURL    https://github.com/UnbelievablyNoah/Instagram-Catppuccin
 @description    A new userstyle
+@preprocessor less
 @author         Me
+@var select darkTheme "Dark Theme" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*"]
 ==/Instagram== */
 
+@-moz-document domain("instagram.com") {
     body::-webkit-scrollbaar {
         overflow: hidden;
        /* Hide scrollbars */
@@ -88856,3 +88860,4 @@
     .bootloader_sniYZpJ {
         display: block!important;
    }
+}
