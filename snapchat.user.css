@@ -5,7 +5,6 @@
 @description    Trying to convert the Snapchat colours into catppuccin mocha
 @author         UnbelievablyNoah
 ==/UserStyle== */
-
 @-moz-document domain("snapchat.com") {
 
     @font-face {
@@ -235,17 +234,17 @@
         font-family: "Noto Color Emoji";
         src: url(https://cf-st.sc-cdn.net/dw/0f6b122253ef171b881a.woff2) format("woff2"), url(https://cf-st.sc-cdn.net/dw/3e239dcf62eab930caa7.woff) format("woff"), url(https://cf-st.sc-cdn.net/dw/4f4d77767beef1733f26.ttf) format("truetype")
     }
-    
+
     * {
         font-weight: 700
     }
-    
-    
+
+
     .KB4Aq.SOEIP.IPEgq.BwRRP.gHTq4.OULCW.tLoEv.uW_rA {
-            border-color: #89b4fa !important;
+        border-color: #89b4fa !important;
     }
-    
-    
+
+
     :root {
         --sigBrandPrimary: #f9e2af;
         --sigBrandSecondary: #0fadff;
@@ -475,7 +474,7 @@
         --selectedRightColorGradient: rgba(4, 4, 4, 0)
     }
     :root[theme=light] {
-           --sigIconPrimary: #cdd6f4;
+        --sigIconPrimary: #cdd6f4;
         --sigIconSecondary: #bac2de;
         --sigIconTertiary: #a6adc8;
         --sigIconNegative: #f23c57;
@@ -1293,7 +1292,7 @@
         color: var(--sigTextNegative)
     }
     .MOJCa {
-        --sigBrandPrimary: #f9e2af	;
+        --sigBrandPrimary: #f9e2af;
         --sigBrandSecondary: #89b4fa;
         --sigBrandBitmoji: #a6e3a1;
         --sigColorAlwaysWhite: #cdd6f4;
@@ -1392,70 +1391,70 @@
     }
     @media(prefers-color-scheme: dark) {
         .MOJCa {
-        --sigIconPrimary: #cdd6f4;
-        --sigIconSecondary: #bac2de;
-        --sigIconTertiary: #a6adc8;
-        --sigIconNegative: #f23c57;
-        --sigTextPrimary: #cdd6f4;
-        --sigTextPrimaryInverse: #000;
-        --sigTextSecondary: #a6adc8;
-        --sigTextTertiary: #6c7086;
-        --sigTextPlayer: #fff;
-        --sigTextNegative: #f23c57;
-        --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
-        --sigBackgroundPrimary: #181825;
-        --sigBackgroundPrimaryInverse: #fff;
-        --sigBackgroundSecondary: #1e1e1e;
-        --sigBackgroundSecondaryHover: #2b2b2b;
-        --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
-        --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
-        --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
-        --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
-        --sigButtonPrimary: #0fadff;
-        --sigButtonPrimaryHover: #42bfff;
-        --sigButtonSecondary: #313244;
-        --sigButtonSecondaryHover: #424242;
-        --sigButtonSecondaryActive: #5c5c5c;
-        --sigButtonTertiary: #4e565f;
-        --sigButtonQuaternary: #fff;
-        --sigButtonInactive: #1e1e1e;
-        --sigButtonNegative: #e1143d;
-        --sigButtonOnPrimary: #fff;
-        --sigButtonOnSecondary: #bac2de;
-        --sigButtonOnTertiary: #fff;
-        --sigButtonOnQuaternary: #1e1e1e;
-        --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
-        --sigButtonOnNegative: #fff;
-        --sigMain: #121212;
-        --sigSubscreen: #121212;
-        --sigOverlay: rgba(0, 0, 0, 0.4);
-        --sigOverlayHover: rgba(0, 0, 0, 0.35);
-        --sigSurface: #1e1e1e;
-        --sigSurfaceRGB: 30, 30, 30;
-        --sigSurfaceDown: #212121;
-        --sigAboveSurface: #292929;
-        --sigObject: rgba(255, 255, 255, 0.1);
-        --sigObjectDown: rgba(255, 255, 255, 0.19);
-        --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
-        --sigDivider: rgba(255, 255, 255, 0.1);
-        --sigDividerLight: rgba(255, 255, 255, 0.2);
-        --sigPlaceholder: #1e1e1e;
-        --sigDisabled: rgba(255, 255, 255, 0.1);
-        --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
-        --sigChat: #0fadff;
-        --sigSnapWithoutSound: #f23c57;
-        --sigSnapWithSound: #a05dcd;
-        --sigChatSurfaceCalling: #39ca8e;
-        --sigChatSurfaceCallingDisabled: #105e3d;
-        --sigChatPending: #767676;
-        --sigChatPendingHover: #8f8f8f;
-        --sigChatIcon: #0fadff;
-        --sigChatIconCaret: #f8616d;
-        --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
-        --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
-        --selectedRightColorGradient: rgba(4, 4, 4, 0)
+            --sigIconPrimary: #cdd6f4;
+            --sigIconSecondary: #bac2de;
+            --sigIconTertiary: #a6adc8;
+            --sigIconNegative: #f23c57;
+            --sigTextPrimary: #cdd6f4;
+            --sigTextPrimaryInverse: #000;
+            --sigTextSecondary: #a6adc8;
+            --sigTextTertiary: #6c7086;
+            --sigTextPlayer: #fff;
+            --sigTextNegative: #f23c57;
+            --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
+            --sigBackgroundPrimary: #181825;
+            --sigBackgroundPrimaryInverse: #fff;
+            --sigBackgroundSecondary: #1e1e1e;
+            --sigBackgroundSecondaryHover: #2b2b2b;
+            --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
+            --sigBackgroundMessageHover: #292929;
+            --sigBackgroundMessageSaved: #333232;
+            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
+            --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
+            --sigButtonPrimary: #0fadff;
+            --sigButtonPrimaryHover: #42bfff;
+            --sigButtonSecondary: #313244;
+            --sigButtonSecondaryHover: #424242;
+            --sigButtonSecondaryActive: #5c5c5c;
+            --sigButtonTertiary: #4e565f;
+            --sigButtonQuaternary: #fff;
+            --sigButtonInactive: #1e1e1e;
+            --sigButtonNegative: #e1143d;
+            --sigButtonOnPrimary: #fff;
+            --sigButtonOnSecondary: #bac2de;
+            --sigButtonOnTertiary: #fff;
+            --sigButtonOnQuaternary: #1e1e1e;
+            --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
+            --sigButtonOnNegative: #fff;
+            --sigMain: #121212;
+            --sigSubscreen: #121212;
+            --sigOverlay: rgba(0, 0, 0, 0.4);
+            --sigOverlayHover: rgba(0, 0, 0, 0.35);
+            --sigSurface: #1e1e1e;
+            --sigSurfaceRGB: 30, 30, 30;
+            --sigSurfaceDown: #212121;
+            --sigAboveSurface: #292929;
+            --sigObject: rgba(255, 255, 255, 0.1);
+            --sigObjectDown: rgba(255, 255, 255, 0.19);
+            --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
+            --sigDivider: rgba(255, 255, 255, 0.1);
+            --sigDividerLight: rgba(255, 255, 255, 0.2);
+            --sigPlaceholder: #1e1e1e;
+            --sigDisabled: rgba(255, 255, 255, 0.1);
+            --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
+            --sigChat: #0fadff;
+            --sigSnapWithoutSound: #f23c57;
+            --sigSnapWithSound: #a05dcd;
+            --sigChatSurfaceCalling: #39ca8e;
+            --sigChatSurfaceCallingDisabled: #105e3d;
+            --sigChatPending: #767676;
+            --sigChatPendingHover: #8f8f8f;
+            --sigChatIcon: #0fadff;
+            --sigChatIconCaret: #f8616d;
+            --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
+            --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
+            --selectedRightColorGradient: rgba(4, 4, 4, 0)
         }
     }
     :root[theme=dark] .MOJCa {
@@ -2158,7 +2157,7 @@
         border-color: var(--sigIconTertiary)
     }
     .Titq2 {
-           --sigIconPrimary: #cdd6f4;
+        --sigIconPrimary: #cdd6f4;
         --sigIconSecondary: #bac2de;
         --sigIconTertiary: #a6adc8;
         --sigIconNegative: #f23c57;
@@ -2227,73 +2226,73 @@
     }
     @media(prefers-color-scheme: dark) {
         .Titq2 {
-              --sigIconPrimary: #cdd6f4;
-        --sigIconSecondary: #bac2de;
-        --sigIconTertiary: #a6adc8;
-        --sigIconNegative: #f23c57;
-        --sigTextPrimary: #cdd6f4;
-        --sigTextPrimaryInverse: #000;
-        --sigTextSecondary: #a6adc8;
-        --sigTextTertiary: #6c7086;
-        --sigTextPlayer: #fff;
-        --sigTextNegative: #f23c57;
-        --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
-        --sigBackgroundPrimary: #181825;
-        --sigBackgroundPrimaryInverse: #fff;
-        --sigBackgroundSecondary: #1e1e1e;
-        --sigBackgroundSecondaryHover: #2b2b2b;
-        --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
-        --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
-        --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
-        --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
-        --sigButtonPrimary: #0fadff;
-        --sigButtonPrimaryHover: #42bfff;
-        --sigButtonSecondary: #313244;
-        --sigButtonSecondaryHover: #424242;
-        --sigButtonSecondaryActive: #5c5c5c;
-        --sigButtonTertiary: #4e565f;
-        --sigButtonQuaternary: #fff;
-        --sigButtonInactive: #1e1e1e;
-        --sigButtonNegative: #e1143d;
-        --sigButtonOnPrimary: #fff;
-        --sigButtonOnSecondary: #bac2de;
-        --sigButtonOnTertiary: #fff;
-        --sigButtonOnQuaternary: #1e1e1e;
-        --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
-        --sigButtonOnNegative: #fff;
-        --sigMain: #121212;
-        --sigSubscreen: #121212;
-        --sigOverlay: rgba(0, 0, 0, 0.4);
-        --sigOverlayHover: rgba(0, 0, 0, 0.35);
-        --sigSurface: #1e1e1e;
-        --sigSurfaceRGB: 30, 30, 30;
-        --sigSurfaceDown: #212121;
-        --sigAboveSurface: #292929;
-        --sigObject: rgba(255, 255, 255, 0.1);
-        --sigObjectDown: rgba(255, 255, 255, 0.19);
-        --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
-        --sigDivider: rgba(255, 255, 255, 0.1);
-        --sigDividerLight: rgba(255, 255, 255, 0.2);
-        --sigPlaceholder: #1e1e1e;
-        --sigDisabled: rgba(255, 255, 255, 0.1);
-        --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
-        --sigChat: #0fadff;
-        --sigSnapWithoutSound: #f23c57;
-        --sigSnapWithSound: #a05dcd;
-        --sigChatSurfaceCalling: #39ca8e;
-        --sigChatSurfaceCallingDisabled: #105e3d;
-        --sigChatPending: #767676;
-        --sigChatPendingHover: #8f8f8f;
-        --sigChatIcon: #0fadff;
-        --sigChatIconCaret: #f8616d;
-        --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
-        --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
-        --selectedRightColorGradient: rgba(4, 4, 4, 0)
+            --sigIconPrimary: #cdd6f4;
+            --sigIconSecondary: #bac2de;
+            --sigIconTertiary: #a6adc8;
+            --sigIconNegative: #f23c57;
+            --sigTextPrimary: #cdd6f4;
+            --sigTextPrimaryInverse: #000;
+            --sigTextSecondary: #a6adc8;
+            --sigTextTertiary: #6c7086;
+            --sigTextPlayer: #fff;
+            --sigTextNegative: #f23c57;
+            --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
+            --sigBackgroundPrimary: #181825;
+            --sigBackgroundPrimaryInverse: #fff;
+            --sigBackgroundSecondary: #1e1e1e;
+            --sigBackgroundSecondaryHover: #2b2b2b;
+            --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
+            --sigBackgroundMessageHover: #292929;
+            --sigBackgroundMessageSaved: #333232;
+            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
+            --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
+            --sigButtonPrimary: #0fadff;
+            --sigButtonPrimaryHover: #42bfff;
+            --sigButtonSecondary: #313244;
+            --sigButtonSecondaryHover: #424242;
+            --sigButtonSecondaryActive: #5c5c5c;
+            --sigButtonTertiary: #4e565f;
+            --sigButtonQuaternary: #fff;
+            --sigButtonInactive: #1e1e1e;
+            --sigButtonNegative: #e1143d;
+            --sigButtonOnPrimary: #fff;
+            --sigButtonOnSecondary: #bac2de;
+            --sigButtonOnTertiary: #fff;
+            --sigButtonOnQuaternary: #1e1e1e;
+            --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
+            --sigButtonOnNegative: #fff;
+            --sigMain: #121212;
+            --sigSubscreen: #121212;
+            --sigOverlay: rgba(0, 0, 0, 0.4);
+            --sigOverlayHover: rgba(0, 0, 0, 0.35);
+            --sigSurface: #1e1e1e;
+            --sigSurfaceRGB: 30, 30, 30;
+            --sigSurfaceDown: #212121;
+            --sigAboveSurface: #292929;
+            --sigObject: rgba(255, 255, 255, 0.1);
+            --sigObjectDown: rgba(255, 255, 255, 0.19);
+            --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
+            --sigDivider: rgba(255, 255, 255, 0.1);
+            --sigDividerLight: rgba(255, 255, 255, 0.2);
+            --sigPlaceholder: #1e1e1e;
+            --sigDisabled: rgba(255, 255, 255, 0.1);
+            --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
+            --sigChat: #0fadff;
+            --sigSnapWithoutSound: #f23c57;
+            --sigSnapWithSound: #a05dcd;
+            --sigChatSurfaceCalling: #39ca8e;
+            --sigChatSurfaceCallingDisabled: #105e3d;
+            --sigChatPending: #767676;
+            --sigChatPendingHover: #8f8f8f;
+            --sigChatIcon: #0fadff;
+            --sigChatIconCaret: #f8616d;
+            --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
+            --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
+            --selectedRightColorGradient: rgba(4, 4, 4, 0)
         }
     }
-    
+
     /* Noah */
     :root[theme=dark] .Titq2 {
         --sigIconPrimary: #cdd6f4;
@@ -2362,7 +2361,7 @@
         --selectedRightColorGradient: rgba(4, 4, 4, 0)
     }
     :root[theme=light] .Titq2 {
-           --sigIconPrimary: #cdd6f4;
+        --sigIconPrimary: #cdd6f4;
         --sigIconSecondary: #bac2de;
         --sigIconTertiary: #a6adc8;
         --sigIconNegative: #f23c57;
@@ -2970,7 +2969,7 @@
         height: 32px;
         width: 100%;
         gap: 16px;
-    
+
         font-size: 14px;
         line-height: 20px;
         font-weight: 700
@@ -3209,7 +3208,7 @@
     .PWxCe {
         font-family: var(--sigFontFamilyPrimary);
         font-size: 12px;
-    
+
         font-weight: 700;
         display: flex;
         flex-direction: row;
@@ -3401,7 +3400,7 @@
         fill: var(--sigIconTertiary)
     }
     .I3nGW {
-           --sigIconPrimary: #cdd6f4;
+        --sigIconPrimary: #cdd6f4;
         --sigIconSecondary: #bac2de;
         --sigIconTertiary: #a6adc8;
         --sigIconNegative: #f23c57;
@@ -3763,7 +3762,7 @@
         text-transform: capitalize
     }
     .iLVEm {
-           --sigIconPrimary: #cdd6f4;
+        --sigIconPrimary: #cdd6f4;
         --sigIconSecondary: #bac2de;
         --sigIconTertiary: #a6adc8;
         --sigIconNegative: #f23c57;
@@ -3834,70 +3833,70 @@
     }
     @media(prefers-color-scheme: dark) {
         .iLVEm {
-              --sigIconPrimary: #cdd6f4;
-        --sigIconSecondary: #bac2de;
-        --sigIconTertiary: #a6adc8;
-        --sigIconNegative: #f23c57;
-        --sigTextPrimary: #cdd6f4;
-        --sigTextPrimaryInverse: #000;
-        --sigTextSecondary: #a6adc8;
-        --sigTextTertiary: #6c7086;
-        --sigTextPlayer: #fff;
-        --sigTextNegative: #f23c57;
-        --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
-        --sigBackgroundPrimary: #181825;
-        --sigBackgroundPrimaryInverse: #fff;
-        --sigBackgroundSecondary: #1e1e1e;
-        --sigBackgroundSecondaryHover: #2b2b2b;
-        --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
-        --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
-        --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
-        --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
-        --sigButtonPrimary: #0fadff;
-        --sigButtonPrimaryHover: #42bfff;
-        --sigButtonSecondary: #313244;
-        --sigButtonSecondaryHover: #424242;
-        --sigButtonSecondaryActive: #5c5c5c;
-        --sigButtonTertiary: #4e565f;
-        --sigButtonQuaternary: #fff;
-        --sigButtonInactive: #1e1e1e;
-        --sigButtonNegative: #e1143d;
-        --sigButtonOnPrimary: #fff;
-        --sigButtonOnSecondary: #bac2de;
-        --sigButtonOnTertiary: #fff;
-        --sigButtonOnQuaternary: #1e1e1e;
-        --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
-        --sigButtonOnNegative: #fff;
-        --sigMain: #121212;
-        --sigSubscreen: #121212;
-        --sigOverlay: rgba(0, 0, 0, 0.4);
-        --sigOverlayHover: rgba(0, 0, 0, 0.35);
-        --sigSurface: #1e1e1e;
-        --sigSurfaceRGB: 30, 30, 30;
-        --sigSurfaceDown: #212121;
-        --sigAboveSurface: #292929;
-        --sigObject: rgba(255, 255, 255, 0.1);
-        --sigObjectDown: rgba(255, 255, 255, 0.19);
-        --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
-        --sigDivider: rgba(255, 255, 255, 0.1);
-        --sigDividerLight: rgba(255, 255, 255, 0.2);
-        --sigPlaceholder: #1e1e1e;
-        --sigDisabled: rgba(255, 255, 255, 0.1);
-        --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
-        --sigChat: #0fadff;
-        --sigSnapWithoutSound: #f23c57;
-        --sigSnapWithSound: #a05dcd;
-        --sigChatSurfaceCalling: #39ca8e;
-        --sigChatSurfaceCallingDisabled: #105e3d;
-        --sigChatPending: #767676;
-        --sigChatPendingHover: #8f8f8f;
-        --sigChatIcon: #0fadff;
-        --sigChatIconCaret: #f8616d;
-        --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
-        --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
-        --selectedRightColorGradient: rgba(4, 4, 4, 0)
+            --sigIconPrimary: #cdd6f4;
+            --sigIconSecondary: #bac2de;
+            --sigIconTertiary: #a6adc8;
+            --sigIconNegative: #f23c57;
+            --sigTextPrimary: #cdd6f4;
+            --sigTextPrimaryInverse: #000;
+            --sigTextSecondary: #a6adc8;
+            --sigTextTertiary: #6c7086;
+            --sigTextPlayer: #fff;
+            --sigTextNegative: #f23c57;
+            --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
+            --sigBackgroundPrimary: #181825;
+            --sigBackgroundPrimaryInverse: #fff;
+            --sigBackgroundSecondary: #1e1e1e;
+            --sigBackgroundSecondaryHover: #2b2b2b;
+            --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
+            --sigBackgroundMessageHover: #292929;
+            --sigBackgroundMessageSaved: #333232;
+            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
+            --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
+            --sigButtonPrimary: #0fadff;
+            --sigButtonPrimaryHover: #42bfff;
+            --sigButtonSecondary: #313244;
+            --sigButtonSecondaryHover: #424242;
+            --sigButtonSecondaryActive: #5c5c5c;
+            --sigButtonTertiary: #4e565f;
+            --sigButtonQuaternary: #fff;
+            --sigButtonInactive: #1e1e1e;
+            --sigButtonNegative: #e1143d;
+            --sigButtonOnPrimary: #fff;
+            --sigButtonOnSecondary: #bac2de;
+            --sigButtonOnTertiary: #fff;
+            --sigButtonOnQuaternary: #1e1e1e;
+            --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
+            --sigButtonOnNegative: #fff;
+            --sigMain: #121212;
+            --sigSubscreen: #121212;
+            --sigOverlay: rgba(0, 0, 0, 0.4);
+            --sigOverlayHover: rgba(0, 0, 0, 0.35);
+            --sigSurface: #1e1e1e;
+            --sigSurfaceRGB: 30, 30, 30;
+            --sigSurfaceDown: #212121;
+            --sigAboveSurface: #292929;
+            --sigObject: rgba(255, 255, 255, 0.1);
+            --sigObjectDown: rgba(255, 255, 255, 0.19);
+            --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
+            --sigDivider: rgba(255, 255, 255, 0.1);
+            --sigDividerLight: rgba(255, 255, 255, 0.2);
+            --sigPlaceholder: #1e1e1e;
+            --sigDisabled: rgba(255, 255, 255, 0.1);
+            --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
+            --sigChat: #0fadff;
+            --sigSnapWithoutSound: #f23c57;
+            --sigSnapWithSound: #a05dcd;
+            --sigChatSurfaceCalling: #39ca8e;
+            --sigChatSurfaceCallingDisabled: #105e3d;
+            --sigChatPending: #767676;
+            --sigChatPendingHover: #8f8f8f;
+            --sigChatIcon: #0fadff;
+            --sigChatIconCaret: #f8616d;
+            --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
+            --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
+            --selectedRightColorGradient: rgba(4, 4, 4, 0)
         }
     }
     :root[theme=dark] .iLVEm {
@@ -5870,7 +5869,7 @@
         height: 50vh
     }
     .vAurs {
-           --sigIconPrimary: #cdd6f4;
+        --sigIconPrimary: #cdd6f4;
         --sigIconSecondary: #bac2de;
         --sigIconTertiary: #a6adc8;
         --sigIconNegative: #f23c57;
@@ -5945,70 +5944,70 @@
     }
     @media(prefers-color-scheme: dark) {
         .vAurs {
-              --sigIconPrimary: #cdd6f4;
-        --sigIconSecondary: #bac2de;
-        --sigIconTertiary: #a6adc8;
-        --sigIconNegative: #f23c57;
-        --sigTextPrimary: #cdd6f4;
-        --sigTextPrimaryInverse: #000;
-        --sigTextSecondary: #a6adc8;
-        --sigTextTertiary: #6c7086;
-        --sigTextPlayer: #fff;
-        --sigTextNegative: #f23c57;
-        --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
-        --sigBackgroundPrimary: #181825;
-        --sigBackgroundPrimaryInverse: #fff;
-        --sigBackgroundSecondary: #1e1e1e;
-        --sigBackgroundSecondaryHover: #2b2b2b;
-        --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
-        --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
-        --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
-        --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
-        --sigButtonPrimary: #0fadff;
-        --sigButtonPrimaryHover: #42bfff;
-        --sigButtonSecondary: #313244;
-        --sigButtonSecondaryHover: #424242;
-        --sigButtonSecondaryActive: #5c5c5c;
-        --sigButtonTertiary: #4e565f;
-        --sigButtonQuaternary: #fff;
-        --sigButtonInactive: #1e1e1e;
-        --sigButtonNegative: #e1143d;
-        --sigButtonOnPrimary: #fff;
-        --sigButtonOnSecondary: #bac2de;
-        --sigButtonOnTertiary: #fff;
-        --sigButtonOnQuaternary: #1e1e1e;
-        --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
-        --sigButtonOnNegative: #fff;
-        --sigMain: #121212;
-        --sigSubscreen: #121212;
-        --sigOverlay: rgba(0, 0, 0, 0.4);
-        --sigOverlayHover: rgba(0, 0, 0, 0.35);
-        --sigSurface: #1e1e1e;
-        --sigSurfaceRGB: 30, 30, 30;
-        --sigSurfaceDown: #212121;
-        --sigAboveSurface: #292929;
-        --sigObject: rgba(255, 255, 255, 0.1);
-        --sigObjectDown: rgba(255, 255, 255, 0.19);
-        --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
-        --sigDivider: rgba(255, 255, 255, 0.1);
-        --sigDividerLight: rgba(255, 255, 255, 0.2);
-        --sigPlaceholder: #1e1e1e;
-        --sigDisabled: rgba(255, 255, 255, 0.1);
-        --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
-        --sigChat: #0fadff;
-        --sigSnapWithoutSound: #f23c57;
-        --sigSnapWithSound: #a05dcd;
-        --sigChatSurfaceCalling: #39ca8e;
-        --sigChatSurfaceCallingDisabled: #105e3d;
-        --sigChatPending: #767676;
-        --sigChatPendingHover: #8f8f8f;
-        --sigChatIcon: #0fadff;
-        --sigChatIconCaret: #f8616d;
-        --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
-        --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
-        --selectedRightColorGradient: rgba(4, 4, 4, 0)
+            --sigIconPrimary: #cdd6f4;
+            --sigIconSecondary: #bac2de;
+            --sigIconTertiary: #a6adc8;
+            --sigIconNegative: #f23c57;
+            --sigTextPrimary: #cdd6f4;
+            --sigTextPrimaryInverse: #000;
+            --sigTextSecondary: #a6adc8;
+            --sigTextTertiary: #6c7086;
+            --sigTextPlayer: #fff;
+            --sigTextNegative: #f23c57;
+            --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
+            --sigBackgroundPrimary: #181825;
+            --sigBackgroundPrimaryInverse: #fff;
+            --sigBackgroundSecondary: #1e1e1e;
+            --sigBackgroundSecondaryHover: #2b2b2b;
+            --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
+            --sigBackgroundMessageHover: #292929;
+            --sigBackgroundMessageSaved: #333232;
+            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
+            --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
+            --sigButtonPrimary: #0fadff;
+            --sigButtonPrimaryHover: #42bfff;
+            --sigButtonSecondary: #313244;
+            --sigButtonSecondaryHover: #424242;
+            --sigButtonSecondaryActive: #5c5c5c;
+            --sigButtonTertiary: #4e565f;
+            --sigButtonQuaternary: #fff;
+            --sigButtonInactive: #1e1e1e;
+            --sigButtonNegative: #e1143d;
+            --sigButtonOnPrimary: #fff;
+            --sigButtonOnSecondary: #bac2de;
+            --sigButtonOnTertiary: #fff;
+            --sigButtonOnQuaternary: #1e1e1e;
+            --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
+            --sigButtonOnNegative: #fff;
+            --sigMain: #121212;
+            --sigSubscreen: #121212;
+            --sigOverlay: rgba(0, 0, 0, 0.4);
+            --sigOverlayHover: rgba(0, 0, 0, 0.35);
+            --sigSurface: #1e1e1e;
+            --sigSurfaceRGB: 30, 30, 30;
+            --sigSurfaceDown: #212121;
+            --sigAboveSurface: #292929;
+            --sigObject: rgba(255, 255, 255, 0.1);
+            --sigObjectDown: rgba(255, 255, 255, 0.19);
+            --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
+            --sigDivider: rgba(255, 255, 255, 0.1);
+            --sigDividerLight: rgba(255, 255, 255, 0.2);
+            --sigPlaceholder: #1e1e1e;
+            --sigDisabled: rgba(255, 255, 255, 0.1);
+            --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
+            --sigChat: #0fadff;
+            --sigSnapWithoutSound: #f23c57;
+            --sigSnapWithSound: #a05dcd;
+            --sigChatSurfaceCalling: #39ca8e;
+            --sigChatSurfaceCallingDisabled: #105e3d;
+            --sigChatPending: #767676;
+            --sigChatPendingHover: #8f8f8f;
+            --sigChatIcon: #0fadff;
+            --sigChatIconCaret: #f8616d;
+            --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
+            --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
+            --selectedRightColorGradient: rgba(4, 4, 4, 0)
         }
     }
     :root[theme=dark] .vAurs {
@@ -6983,70 +6982,70 @@
     }
     @media(prefers-color-scheme: dark) {
         .Ins2h {
-              --sigIconPrimary: #cdd6f4;
-        --sigIconSecondary: #bac2de;
-        --sigIconTertiary: #a6adc8;
-        --sigIconNegative: #f23c57;
-        --sigTextPrimary: #cdd6f4;
-        --sigTextPrimaryInverse: #000;
-        --sigTextSecondary: #a6adc8;
-        --sigTextTertiary: #6c7086;
-        --sigTextPlayer: #fff;
-        --sigTextNegative: #f23c57;
-        --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
-        --sigBackgroundPrimary: #181825;
-        --sigBackgroundPrimaryInverse: #fff;
-        --sigBackgroundSecondary: #1e1e1e;
-        --sigBackgroundSecondaryHover: #2b2b2b;
-        --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
-        --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
-        --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
-        --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
-        --sigButtonPrimary: #0fadff;
-        --sigButtonPrimaryHover: #42bfff;
-        --sigButtonSecondary: #313244;
-        --sigButtonSecondaryHover: #424242;
-        --sigButtonSecondaryActive: #5c5c5c;
-        --sigButtonTertiary: #4e565f;
-        --sigButtonQuaternary: #fff;
-        --sigButtonInactive: #1e1e1e;
-        --sigButtonNegative: #e1143d;
-        --sigButtonOnPrimary: #fff;
-        --sigButtonOnSecondary: #bac2de;
-        --sigButtonOnTertiary: #fff;
-        --sigButtonOnQuaternary: #1e1e1e;
-        --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
-        --sigButtonOnNegative: #fff;
-        --sigMain: #121212;
-        --sigSubscreen: #121212;
-        --sigOverlay: rgba(0, 0, 0, 0.4);
-        --sigOverlayHover: rgba(0, 0, 0, 0.35);
-        --sigSurface: #1e1e1e;
-        --sigSurfaceRGB: 30, 30, 30;
-        --sigSurfaceDown: #212121;
-        --sigAboveSurface: #292929;
-        --sigObject: rgba(255, 255, 255, 0.1);
-        --sigObjectDown: rgba(255, 255, 255, 0.19);
-        --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
-        --sigDivider: rgba(255, 255, 255, 0.1);
-        --sigDividerLight: rgba(255, 255, 255, 0.2);
-        --sigPlaceholder: #1e1e1e;
-        --sigDisabled: rgba(255, 255, 255, 0.1);
-        --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
-        --sigChat: #0fadff;
-        --sigSnapWithoutSound: #f23c57;
-        --sigSnapWithSound: #a05dcd;
-        --sigChatSurfaceCalling: #39ca8e;
-        --sigChatSurfaceCallingDisabled: #105e3d;
-        --sigChatPending: #767676;
-        --sigChatPendingHover: #8f8f8f;
-        --sigChatIcon: #0fadff;
-        --sigChatIconCaret: #f8616d;
-        --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
-        --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
-        --selectedRightColorGradient: rgba(4, 4, 4, 0)
+            --sigIconPrimary: #cdd6f4;
+            --sigIconSecondary: #bac2de;
+            --sigIconTertiary: #a6adc8;
+            --sigIconNegative: #f23c57;
+            --sigTextPrimary: #cdd6f4;
+            --sigTextPrimaryInverse: #000;
+            --sigTextSecondary: #a6adc8;
+            --sigTextTertiary: #6c7086;
+            --sigTextPlayer: #fff;
+            --sigTextNegative: #f23c57;
+            --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
+            --sigBackgroundPrimary: #181825;
+            --sigBackgroundPrimaryInverse: #fff;
+            --sigBackgroundSecondary: #1e1e1e;
+            --sigBackgroundSecondaryHover: #2b2b2b;
+            --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
+            --sigBackgroundMessageHover: #292929;
+            --sigBackgroundMessageSaved: #333232;
+            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
+            --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
+            --sigButtonPrimary: #0fadff;
+            --sigButtonPrimaryHover: #42bfff;
+            --sigButtonSecondary: #313244;
+            --sigButtonSecondaryHover: #424242;
+            --sigButtonSecondaryActive: #5c5c5c;
+            --sigButtonTertiary: #4e565f;
+            --sigButtonQuaternary: #fff;
+            --sigButtonInactive: #1e1e1e;
+            --sigButtonNegative: #e1143d;
+            --sigButtonOnPrimary: #fff;
+            --sigButtonOnSecondary: #bac2de;
+            --sigButtonOnTertiary: #fff;
+            --sigButtonOnQuaternary: #1e1e1e;
+            --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
+            --sigButtonOnNegative: #fff;
+            --sigMain: #121212;
+            --sigSubscreen: #121212;
+            --sigOverlay: rgba(0, 0, 0, 0.4);
+            --sigOverlayHover: rgba(0, 0, 0, 0.35);
+            --sigSurface: #1e1e1e;
+            --sigSurfaceRGB: 30, 30, 30;
+            --sigSurfaceDown: #212121;
+            --sigAboveSurface: #292929;
+            --sigObject: rgba(255, 255, 255, 0.1);
+            --sigObjectDown: rgba(255, 255, 255, 0.19);
+            --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
+            --sigDivider: rgba(255, 255, 255, 0.1);
+            --sigDividerLight: rgba(255, 255, 255, 0.2);
+            --sigPlaceholder: #1e1e1e;
+            --sigDisabled: rgba(255, 255, 255, 0.1);
+            --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
+            --sigChat: #0fadff;
+            --sigSnapWithoutSound: #f23c57;
+            --sigSnapWithSound: #a05dcd;
+            --sigChatSurfaceCalling: #39ca8e;
+            --sigChatSurfaceCallingDisabled: #105e3d;
+            --sigChatPending: #767676;
+            --sigChatPendingHover: #8f8f8f;
+            --sigChatIcon: #0fadff;
+            --sigChatIconCaret: #f8616d;
+            --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
+            --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
+            --selectedRightColorGradient: rgba(4, 4, 4, 0)
         }
     }
     :root[theme=dark] .Ins2h {
@@ -8418,70 +8417,70 @@
     }
     @media(prefers-color-scheme: dark) {
         .SZJHC {
-              --sigIconPrimary: #cdd6f4;
-        --sigIconSecondary: #bac2de;
-        --sigIconTertiary: #a6adc8;
-        --sigIconNegative: #f23c57;
-        --sigTextPrimary: #cdd6f4;
-        --sigTextPrimaryInverse: #000;
-        --sigTextSecondary: #a6adc8;
-        --sigTextTertiary: #6c7086;
-        --sigTextPlayer: #fff;
-        --sigTextNegative: #f23c57;
-        --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
-        --sigBackgroundPrimary: #181825;
-        --sigBackgroundPrimaryInverse: #fff;
-        --sigBackgroundSecondary: #1e1e1e;
-        --sigBackgroundSecondaryHover: #2b2b2b;
-        --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
-        --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
-        --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
-        --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
-        --sigButtonPrimary: #0fadff;
-        --sigButtonPrimaryHover: #42bfff;
-        --sigButtonSecondary: #313244;
-        --sigButtonSecondaryHover: #424242;
-        --sigButtonSecondaryActive: #5c5c5c;
-        --sigButtonTertiary: #4e565f;
-        --sigButtonQuaternary: #fff;
-        --sigButtonInactive: #1e1e1e;
-        --sigButtonNegative: #e1143d;
-        --sigButtonOnPrimary: #fff;
-        --sigButtonOnSecondary: #bac2de;
-        --sigButtonOnTertiary: #fff;
-        --sigButtonOnQuaternary: #1e1e1e;
-        --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
-        --sigButtonOnNegative: #fff;
-        --sigMain: #121212;
-        --sigSubscreen: #121212;
-        --sigOverlay: rgba(0, 0, 0, 0.4);
-        --sigOverlayHover: rgba(0, 0, 0, 0.35);
-        --sigSurface: #1e1e1e;
-        --sigSurfaceRGB: 30, 30, 30;
-        --sigSurfaceDown: #212121;
-        --sigAboveSurface: #292929;
-        --sigObject: rgba(255, 255, 255, 0.1);
-        --sigObjectDown: rgba(255, 255, 255, 0.19);
-        --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
-        --sigDivider: rgba(255, 255, 255, 0.1);
-        --sigDividerLight: rgba(255, 255, 255, 0.2);
-        --sigPlaceholder: #1e1e1e;
-        --sigDisabled: rgba(255, 255, 255, 0.1);
-        --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
-        --sigChat: #0fadff;
-        --sigSnapWithoutSound: #f23c57;
-        --sigSnapWithSound: #a05dcd;
-        --sigChatSurfaceCalling: #39ca8e;
-        --sigChatSurfaceCallingDisabled: #105e3d;
-        --sigChatPending: #767676;
-        --sigChatPendingHover: #8f8f8f;
-        --sigChatIcon: #0fadff;
-        --sigChatIconCaret: #f8616d;
-        --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
-        --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
-        --selectedRightColorGradient: rgba(4, 4, 4, 0)
+            --sigIconPrimary: #cdd6f4;
+            --sigIconSecondary: #bac2de;
+            --sigIconTertiary: #a6adc8;
+            --sigIconNegative: #f23c57;
+            --sigTextPrimary: #cdd6f4;
+            --sigTextPrimaryInverse: #000;
+            --sigTextSecondary: #a6adc8;
+            --sigTextTertiary: #6c7086;
+            --sigTextPlayer: #fff;
+            --sigTextNegative: #f23c57;
+            --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
+            --sigBackgroundPrimary: #181825;
+            --sigBackgroundPrimaryInverse: #fff;
+            --sigBackgroundSecondary: #1e1e1e;
+            --sigBackgroundSecondaryHover: #2b2b2b;
+            --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
+            --sigBackgroundMessageHover: #292929;
+            --sigBackgroundMessageSaved: #333232;
+            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
+            --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
+            --sigButtonPrimary: #0fadff;
+            --sigButtonPrimaryHover: #42bfff;
+            --sigButtonSecondary: #313244;
+            --sigButtonSecondaryHover: #424242;
+            --sigButtonSecondaryActive: #5c5c5c;
+            --sigButtonTertiary: #4e565f;
+            --sigButtonQuaternary: #fff;
+            --sigButtonInactive: #1e1e1e;
+            --sigButtonNegative: #e1143d;
+            --sigButtonOnPrimary: #fff;
+            --sigButtonOnSecondary: #bac2de;
+            --sigButtonOnTertiary: #fff;
+            --sigButtonOnQuaternary: #1e1e1e;
+            --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
+            --sigButtonOnNegative: #fff;
+            --sigMain: #121212;
+            --sigSubscreen: #121212;
+            --sigOverlay: rgba(0, 0, 0, 0.4);
+            --sigOverlayHover: rgba(0, 0, 0, 0.35);
+            --sigSurface: #1e1e1e;
+            --sigSurfaceRGB: 30, 30, 30;
+            --sigSurfaceDown: #212121;
+            --sigAboveSurface: #292929;
+            --sigObject: rgba(255, 255, 255, 0.1);
+            --sigObjectDown: rgba(255, 255, 255, 0.19);
+            --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
+            --sigDivider: rgba(255, 255, 255, 0.1);
+            --sigDividerLight: rgba(255, 255, 255, 0.2);
+            --sigPlaceholder: #1e1e1e;
+            --sigDisabled: rgba(255, 255, 255, 0.1);
+            --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
+            --sigChat: #0fadff;
+            --sigSnapWithoutSound: #f23c57;
+            --sigSnapWithSound: #a05dcd;
+            --sigChatSurfaceCalling: #39ca8e;
+            --sigChatSurfaceCallingDisabled: #105e3d;
+            --sigChatPending: #767676;
+            --sigChatPendingHover: #8f8f8f;
+            --sigChatIcon: #0fadff;
+            --sigChatIconCaret: #f8616d;
+            --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
+            --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
+            --selectedRightColorGradient: rgba(4, 4, 4, 0)
         }
     }
     :root[theme=dark] .SZJHC {
@@ -9706,70 +9705,70 @@
     }
     @media(prefers-color-scheme: dark) {
         .IPvMX {
-              --sigIconPrimary: #cdd6f4;
-        --sigIconSecondary: #bac2de;
-        --sigIconTertiary: #a6adc8;
-        --sigIconNegative: #f23c57;
-        --sigTextPrimary: #cdd6f4;
-        --sigTextPrimaryInverse: #000;
-        --sigTextSecondary: #a6adc8;
-        --sigTextTertiary: #6c7086;
-        --sigTextPlayer: #fff;
-        --sigTextNegative: #f23c57;
-        --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
-        --sigBackgroundPrimary: #181825;
-        --sigBackgroundPrimaryInverse: #fff;
-        --sigBackgroundSecondary: #1e1e1e;
-        --sigBackgroundSecondaryHover: #2b2b2b;
-        --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
-        --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
-        --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
-        --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
-        --sigButtonPrimary: #0fadff;
-        --sigButtonPrimaryHover: #42bfff;
-        --sigButtonSecondary: #313244;
-        --sigButtonSecondaryHover: #424242;
-        --sigButtonSecondaryActive: #5c5c5c;
-        --sigButtonTertiary: #4e565f;
-        --sigButtonQuaternary: #fff;
-        --sigButtonInactive: #1e1e1e;
-        --sigButtonNegative: #e1143d;
-        --sigButtonOnPrimary: #fff;
-        --sigButtonOnSecondary: #bac2de;
-        --sigButtonOnTertiary: #fff;
-        --sigButtonOnQuaternary: #1e1e1e;
-        --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
-        --sigButtonOnNegative: #fff;
-        --sigMain: #121212;
-        --sigSubscreen: #121212;
-        --sigOverlay: rgba(0, 0, 0, 0.4);
-        --sigOverlayHover: rgba(0, 0, 0, 0.35);
-        --sigSurface: #1e1e1e;
-        --sigSurfaceRGB: 30, 30, 30;
-        --sigSurfaceDown: #212121;
-        --sigAboveSurface: #292929;
-        --sigObject: rgba(255, 255, 255, 0.1);
-        --sigObjectDown: rgba(255, 255, 255, 0.19);
-        --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
-        --sigDivider: rgba(255, 255, 255, 0.1);
-        --sigDividerLight: rgba(255, 255, 255, 0.2);
-        --sigPlaceholder: #1e1e1e;
-        --sigDisabled: rgba(255, 255, 255, 0.1);
-        --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
-        --sigChat: #0fadff;
-        --sigSnapWithoutSound: #f23c57;
-        --sigSnapWithSound: #a05dcd;
-        --sigChatSurfaceCalling: #39ca8e;
-        --sigChatSurfaceCallingDisabled: #105e3d;
-        --sigChatPending: #767676;
-        --sigChatPendingHover: #8f8f8f;
-        --sigChatIcon: #0fadff;
-        --sigChatIconCaret: #f8616d;
-        --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
-        --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
-        --selectedRightColorGradient: rgba(4, 4, 4, 0)
+            --sigIconPrimary: #cdd6f4;
+            --sigIconSecondary: #bac2de;
+            --sigIconTertiary: #a6adc8;
+            --sigIconNegative: #f23c57;
+            --sigTextPrimary: #cdd6f4;
+            --sigTextPrimaryInverse: #000;
+            --sigTextSecondary: #a6adc8;
+            --sigTextTertiary: #6c7086;
+            --sigTextPlayer: #fff;
+            --sigTextNegative: #f23c57;
+            --sigColorBackgroundBorder: rgba(255, 255, 255, 0.1);
+            --sigBackgroundPrimary: #181825;
+            --sigBackgroundPrimaryInverse: #fff;
+            --sigBackgroundSecondary: #1e1e1e;
+            --sigBackgroundSecondaryHover: #2b2b2b;
+            --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
+            --sigBackgroundMessageHover: #292929;
+            --sigBackgroundMessageSaved: #333232;
+            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
+            --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
+            --sigButtonPrimary: #0fadff;
+            --sigButtonPrimaryHover: #42bfff;
+            --sigButtonSecondary: #313244;
+            --sigButtonSecondaryHover: #424242;
+            --sigButtonSecondaryActive: #5c5c5c;
+            --sigButtonTertiary: #4e565f;
+            --sigButtonQuaternary: #fff;
+            --sigButtonInactive: #1e1e1e;
+            --sigButtonNegative: #e1143d;
+            --sigButtonOnPrimary: #fff;
+            --sigButtonOnSecondary: #bac2de;
+            --sigButtonOnTertiary: #fff;
+            --sigButtonOnQuaternary: #1e1e1e;
+            --sigButtonOnInactive: rgba(255, 255, 255, 0.3);
+            --sigButtonOnNegative: #fff;
+            --sigMain: #121212;
+            --sigSubscreen: #121212;
+            --sigOverlay: rgba(0, 0, 0, 0.4);
+            --sigOverlayHover: rgba(0, 0, 0, 0.35);
+            --sigSurface: #1e1e1e;
+            --sigSurfaceRGB: 30, 30, 30;
+            --sigSurfaceDown: #212121;
+            --sigAboveSurface: #292929;
+            --sigObject: rgba(255, 255, 255, 0.1);
+            --sigObjectDown: rgba(255, 255, 255, 0.19);
+            --sigConversationBoxBackground: rgba(255, 255, 255, 0.25);
+            --sigDivider: rgba(255, 255, 255, 0.1);
+            --sigDividerLight: rgba(255, 255, 255, 0.2);
+            --sigPlaceholder: #1e1e1e;
+            --sigDisabled: rgba(255, 255, 255, 0.1);
+            --sigCallTileHighlight: rgba(255, 255, 255, 0.8);
+            --sigChat: #0fadff;
+            --sigSnapWithoutSound: #f23c57;
+            --sigSnapWithSound: #a05dcd;
+            --sigChatSurfaceCalling: #39ca8e;
+            --sigChatSurfaceCallingDisabled: #105e3d;
+            --sigChatPending: #767676;
+            --sigChatPendingHover: #8f8f8f;
+            --sigChatIcon: #0fadff;
+            --sigChatIconCaret: #f8616d;
+            --sigChatShadowOne: 0 0 17px rgba(33, 33, 33, 0.07), 0 0 22px rgba(0, 0, 0, 0.06), 0 0 8px rgba(84, 84, 84, 0.1);
+            --selectedMiddleColorGradient: rgba(4, 4, 4, 0.1);
+            --selectedRightColorGradient: rgba(4, 4, 4, 0)
         }
     }
     :root[theme=dark] .IPvMX {
@@ -10657,7 +10656,6 @@
         align-items: center;
         justify-content: center
     }
-    
+
     /*# sourceMappingURL=41d0756eac2e6bf81b95.css.map*/
-    
-    }
+}
