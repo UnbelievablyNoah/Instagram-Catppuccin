@@ -7,6 +7,43 @@
     ==/UserStyle== */
     @-moz-document domain("roblox.com") {
 
+            @keyframes rainbow {
+               0% {background-color: #ff4151;border-color: #ff4151;}
+                10% {background-color: #ff4151;border-color: #ff4151;}
+              20% {background-color: #7e7efe;border-color: #7e7efe;}
+              30% {background-color: #ff4151;border-color: #ff4151;}
+              40% {background-color: #7e7efe;border-color: #7e7efe;}
+              50% {background-color: #ff4151;border-color: #ff4151;}
+              60% {background-color: #7e7efe;border-color: #7e7efe;}
+              70% {background-color: #ff4151;border-color: #ff4151;}
+              80% {background-color: #7e7efe;border-color: #7e7efe;}
+              90% {background-color: #ff4151;border-color: #ff4151;}
+              100% {background-color: #7e7efe;border-color: #7e7efe;}
+                110% {background-color: #ff4151;border-color: #ff4151;}
+            }
+            
+            .btn-common-play-game-lg {
+                animation: rainbow 13s infinite !important;
+            }
+            
+                @keyframes rainbow {
+               0% {background-color: #ff4151;border-color: #ff4151;}
+                10% {background-color: #ff4151;border-color: #ff4151;}
+              20% {background-color: #7e7efe;border-color: #7e7efe;}
+              30% {background-color: #ff4151;border-color: #ff4151;}
+              40% {background-color: #7e7efe;border-color: #7e7efe;}
+              50% {background-color: #ff4151;border-color: #ff4151;}
+              60% {background-color: #7e7efe;border-color: #7e7efe;}
+              70% {background-color: #ff4151;border-color: #ff4151;}
+              80% {background-color: #7e7efe;border-color: #7e7efe;}
+              90% {background-color: #ff4151;border-color: #ff4151;}
+              100% {background-color: #7e7efe;border-color: #7e7efe;}
+                110% {background-color: #ff4151;border-color: #ff4151;}
+            }
+            
+            .btn-growth-sm {
+                animation: rainbow 2s infinite !important;
+            }
 
         .dark-theme .rbx-header,
         .thumbnail-2d-container img,
