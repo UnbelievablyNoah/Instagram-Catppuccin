@@ -1,13 +1,11 @@
 /* ==UserStyle==
-@name           ? - Oct 2023
+@name           Instagram Catppuccin
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @homepageURL    https://github.com/UnbelievablyNoah/Instagram-Catppuccin
 @description    A new userstyle
-@author         Me
+@author         UnbelievablyNoah
 ==/UserStyle== */
-
-
 @-moz-document domain("instagram.com") {
     
     body::-webkit-scrollbaar {
@@ -2313,7 +2311,7 @@
        border-top: 5px solid var(--web-wash) 
    }
    .x11ziu89 {
-       border-top: 1px solid var(--web-always-black), .0975;
+       border-top: 1px solid var(--web-always-black), .0975) 
    }
    .x1200zyb {
        border-top: 1px solid var(--fds-gray-10) 
@@ -2355,7 +2353,7 @@
        border-top: 4px solid 
    }
    .x13zqm9e {
-       border-bottom: 1px solid var(--ig-separator);
+       border-bottom: 1px solid var(--ig-separator)) 
    }
    .x140qq3l {
        border-top: 1px inside var(--shadow-1) 
@@ -2409,11 +2407,11 @@
        border-bottom: 3px solid var(--primary-button-background) 
    }
    .x183uhj5 {
-    border-bottom: 8px solid transparent;
-}
-.x184ohf7 {
-    border-bottom: 1.5px solid var(--ig-primary-background);
-}
+       border-bottom: 8px solid transparent 
+   }
+   .x184ohf7 {
+       border-bottom: 1.5px solid var(--ig-primary-background)) 
+   }
    .x18a0z3r {
        border-top: 4px solid black 
    }
@@ -2421,7 +2419,7 @@
        border-top: var(--accent) 1px solid 
    }
    .x18oi6gw {
-       border-bottom: 1px solid var(--ig-elevated-separator); 
+       border-bottom: 1px solid var(--ig-elevated-separator)) 
    }
    .x18sk1ed {
        border-bottom: 2px solid red 
@@ -25192,7 +25190,8 @@
        text-decoration: inherit 
    }
    .x1lku1pv:hover {
-       text-decoration: none color: var(--ig-primary-text)) !important 
+       text-decoration: none;
+       color: var(--ig-primary-text) !important 
    }
    .xt0b8zv:hover {
        text-decoration: underline 
