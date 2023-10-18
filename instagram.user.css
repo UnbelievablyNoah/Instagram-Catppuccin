@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Instagram Catppuccin
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.2.0
 @homepageURL    https://github.com/UnbelievablyNoah/Instagram-Catppuccin
 @description    A new userstyle
 @author         UnbelievablyNoah
@@ -10,13 +10,10 @@
     
     body::-webkit-scrollbar {
         overflow: hidden;
-        /* Hide scrollbars */
+        /* Hide  crollbars */
     }
     
-    html > body > div > div > div > div > div > div > div > div > div > div > div > section > main > div > header > section > div > a + div + div + div,
-    div.xj3m2qm,
-    svg[aria-label="Threads"],
-    .x1yrsyyn.x10b6aqq {
+    html > body > div > div > div > div > div > div > div > div > div > div > div > section > main > div > header > section > div > a + div + div + div, div.xj3m2qm, svg[aria-label="Threads"], .x1yrsyyn.x10b6aqq {
         display: none;
     }
     
@@ -33075,7 +33072,8 @@
     }
     
     .x1lku1pv:hover {
-        text-decoration: none color: rgb(var(--ig-primary-text)) !important
+        text-decoration: none; 
+        color: rgb(var(--ig-primary-text)) !important
     }
     
     .xt0b8zv:hover {
@@ -35221,7 +35219,7 @@
     
     @media (max-width: 1249px) {
         .x1minp4s.x1minp4s {
-            width: width:calc(100% - 20px)
+            width: calc(100% - 20px)
         }
     }
     
@@ -84715,7 +84713,7 @@
     }
     @media (max-width: 1249px) {
         .x1minp4s.x1minp4s {
-            width: width:calc(100% - 20px)
+            width: calc(100% - 20px)
         }
     }
     @media (min-width: 1025px) {
