@@ -96,7 +96,7 @@
         --ig-facebook-blue: 53, 121, 234;
         --ig-focus-stroke: 85, 85, 85;
         --ig-highlight-background: 49, 50, 68;
-        --ig-hover-overlay: 243, 139, 168;
+        --ig-hover-overlay: 108, 112, 134;
         --ig-link: 243, 139, 168;
         --ig-live-badge: 255, 1, 105;
         --ig-primary-background: 30, 30, 46;
@@ -240,6 +240,9 @@
     ._a9--,
     bk.components.Flexbox {
         background-color: rgb(var(--ig-elevated-background)) !important
+    }
+    bk.components.TextSpan {
+        color: rgb(var(--ig-text)) !important
     }
     ._aaqo {
         align-items: center;
@@ -20002,8 +20005,8 @@
         max-height: 29.41%
     }
     
-    .x7r02ix {
-        background-color: rgb(var(--ig-elevated-background))
+    .x7r02ix, ._a9-- {
+        background-color: rgb(var(--ig-elevated-background)) !important;
     }
     
     .x7r1588 {
@@ -37725,7 +37728,6 @@
     }
     
     ._a9-- {
-        background-color: rgb(24, 24, 37);
         border-bottom: 0;
         border-left: 0;
         border-right: 0;
