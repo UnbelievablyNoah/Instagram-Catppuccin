@@ -250,7 +250,6 @@
         --sigBrandSecondary: #0fadff;
         --sigBrandBitmoji: #39ca8e;
         --sigColorAlwaysWhite: #cdd6f4;
-        ;
         --sigColorAlwaysBlack: #000;
         --sigIconPrimary: #2c3137;
         --sigIconSecondary: #4e565f;
@@ -274,8 +273,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -358,8 +357,8 @@
             --sigBackgroundSecondaryHover: #2b2b2b;
             --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
             --sigBackgroundMessageHover: #292929;
-            --sigBackgroundMessageSaved: #333232;
-            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigBackgroundMessageSaved: #11111b;
+            --sigBackgroundMessageSavedHover: #11111b;
             --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
             --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
             --sigButtonPrimary: #0fadff;
@@ -425,8 +424,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #89b4fa;
@@ -491,8 +490,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -563,6 +562,10 @@
         content: attr(placeholder);
         color: var(--sigTextSecondary);
         pointer-events: none
+    }
+    
+    .p8r1z, .p8r1z:focus, .p8r1z:active {
+        background-color: #11111b !important
     }
     .v8yGV {
         position: absolute;
@@ -1319,8 +1322,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -1408,8 +1411,8 @@
             --sigBackgroundSecondaryHover: #2b2b2b;
             --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
             --sigBackgroundMessageHover: #292929;
-            --sigBackgroundMessageSaved: #333232;
-            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigBackgroundMessageSaved: #11111b;
+            --sigBackgroundMessageSavedHover: #11111b;
             --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
             --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
             --sigButtonPrimary: #0fadff;
@@ -1475,8 +1478,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -1551,8 +1554,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -1931,12 +1934,10 @@
     .lle58 video {
         cursor: default
     }
-    .pjJv3 {}
     .o6257 {
         border: none;
         object-fit: contain
     }
-    .rBYFf {}
     .hCaA3 {
         display: flex;
         justify-content: center
@@ -2174,8 +2175,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -2243,8 +2244,8 @@
             --sigBackgroundSecondaryHover: #2b2b2b;
             --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
             --sigBackgroundMessageHover: #292929;
-            --sigBackgroundMessageSaved: #333232;
-            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigBackgroundMessageSaved: #11111b;
+            --sigBackgroundMessageSavedHover: #11111b;
             --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
             --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
             --sigButtonPrimary: #0fadff;
@@ -2312,8 +2313,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -2378,8 +2379,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -3004,8 +3005,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -3417,8 +3418,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -3779,8 +3780,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -3850,8 +3851,8 @@
             --sigBackgroundSecondaryHover: #2b2b2b;
             --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
             --sigBackgroundMessageHover: #292929;
-            --sigBackgroundMessageSaved: #333232;
-            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigBackgroundMessageSaved: #11111b;
+            --sigBackgroundMessageSavedHover: #11111b;
             --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
             --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
             --sigButtonPrimary: #0fadff;
@@ -3917,8 +3918,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -3970,7 +3971,6 @@
         --sigBrandSecondary: #0fadff;
         --sigBrandBitmoji: #39ca8e;
         --sigColorAlwaysWhite: #cdd6f4;
-        ;
         --sigColorAlwaysBlack: #000;
         --sigIconPrimary: #2c3137;
         --sigIconSecondary: #4e565f;
@@ -3994,8 +3994,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -5092,8 +5092,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -5194,6 +5194,8 @@
         inset-inline-start: 45%
     }
     ._HpJ5 {
+        background-color: #1e1e2e !important;
+        opacity: .4 !important;
         -webkit-user-select: none;
         user-select: none;
         position: absolute;
@@ -5886,8 +5888,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -5961,8 +5963,8 @@
             --sigBackgroundSecondaryHover: #2b2b2b;
             --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
             --sigBackgroundMessageHover: #292929;
-            --sigBackgroundMessageSaved: #333232;
-            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigBackgroundMessageSaved: #11111b;
+            --sigBackgroundMessageSavedHover: #11111b;
             --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
             --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
             --sigButtonPrimary: #0fadff;
@@ -6028,8 +6030,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -6104,8 +6106,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -6254,8 +6256,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -6373,8 +6375,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -6518,8 +6520,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -6887,7 +6889,6 @@
         --sigBrandSecondary: #0fadff;
         --sigBrandBitmoji: #39ca8e;
         --sigColorAlwaysWhite: #cdd6f4;
-        ;
         --sigColorAlwaysBlack: #000;
         --sigIconPrimary: #2c3137;
         --sigIconSecondary: #4e565f;
@@ -6911,8 +6912,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -6999,8 +7000,8 @@
             --sigBackgroundSecondaryHover: #2b2b2b;
             --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
             --sigBackgroundMessageHover: #292929;
-            --sigBackgroundMessageSaved: #333232;
-            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigBackgroundMessageSaved: #11111b;
+            --sigBackgroundMessageSavedHover: #11111b;
             --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
             --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
             --sigButtonPrimary: #0fadff;
@@ -7066,8 +7067,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -7119,7 +7120,6 @@
         --sigBrandSecondary: #0fadff;
         --sigBrandBitmoji: #39ca8e;
         --sigColorAlwaysWhite: #cdd6f4;
-        ;
         --sigColorAlwaysBlack: #000;
         --sigIconPrimary: #2c3137;
         --sigIconSecondary: #4e565f;
@@ -7143,8 +7143,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -8322,7 +8322,6 @@
         --sigBrandSecondary: #0fadff;
         --sigBrandBitmoji: #39ca8e;
         --sigColorAlwaysWhite: #cdd6f4;
-        ;
         --sigColorAlwaysBlack: #000;
         --sigIconPrimary: #2c3137;
         --sigIconSecondary: #4e565f;
@@ -8346,8 +8345,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -8434,8 +8433,8 @@
             --sigBackgroundSecondaryHover: #2b2b2b;
             --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
             --sigBackgroundMessageHover: #292929;
-            --sigBackgroundMessageSaved: #333232;
-            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigBackgroundMessageSaved: #11111b;
+            --sigBackgroundMessageSavedHover: #11111b;
             --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
             --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
             --sigButtonPrimary: #0fadff;
@@ -8501,8 +8500,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -8554,7 +8553,6 @@
         --sigBrandSecondary: #0fadff;
         --sigBrandBitmoji: #39ca8e;
         --sigColorAlwaysWhite: #cdd6f4;
-        ;
         --sigColorAlwaysBlack: #000;
         --sigIconPrimary: #2c3137;
         --sigIconSecondary: #4e565f;
@@ -8578,8 +8576,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -9071,8 +9069,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -9200,8 +9198,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -9607,7 +9605,6 @@
         --sigBrandSecondary: #0fadff;
         --sigBrandBitmoji: #39ca8e;
         --sigColorAlwaysWhite: #cdd6f4;
-        ;
         --sigColorAlwaysBlack: #000;
         --sigIconPrimary: #2c3137;
         --sigIconSecondary: #4e565f;
@@ -9631,8 +9628,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -9722,8 +9719,8 @@
             --sigBackgroundSecondaryHover: #2b2b2b;
             --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
             --sigBackgroundMessageHover: #292929;
-            --sigBackgroundMessageSaved: #333232;
-            --sigBackgroundMessageSavedHover: #3a3a3a;
+            --sigBackgroundMessageSaved: #11111b;
+            --sigBackgroundMessageSavedHover: #11111b;
             --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
             --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
             --sigButtonPrimary: #0fadff;
@@ -9789,8 +9786,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -9842,7 +9839,6 @@
         --sigBrandSecondary: #0fadff;
         --sigBrandBitmoji: #39ca8e;
         --sigColorAlwaysWhite: #cdd6f4;
-        ;
         --sigColorAlwaysBlack: #000;
         --sigIconPrimary: #2c3137;
         --sigIconSecondary: #4e565f;
@@ -9866,8 +9862,8 @@
         --sigBackgroundSecondaryHover: #d9dee3;
         --sigBackgroundFeedHover: #fbfbfb;
         --sigBackgroundMessageHover: #f8f8f8;
-        --sigBackgroundMessageSaved: #f2f2f2;
-        --sigBackgroundMessageSavedHover: #e2e2e2;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigButtonPrimary: #0fadff;
         --sigButtonPrimaryHover: #42bfff;
@@ -10061,8 +10057,8 @@
         --sigBackgroundSecondaryHover: #2b2b2b;
         --sigBackgroundFeedHover: rgba(255, 255, 255, 0.1);
         --sigBackgroundMessageHover: #292929;
-        --sigBackgroundMessageSaved: #333232;
-        --sigBackgroundMessageSavedHover: #3a3a3a;
+        --sigBackgroundMessageSaved: #11111b;
+        --sigBackgroundMessageSavedHover: #11111b;
         --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1);
         --sigStartupFooterBackground: rgba(0, 0, 0, 0.05);
         --sigButtonPrimary: #0fadff;
@@ -10659,3 +10655,29 @@
 
     /*# sourceMappingURL=41d0756eac2e6bf81b95.css.map*/
 }
+
+@-moz-document url("https://map.snapchat.com/") {
+
+
+.rtsh9SwQ1fcjwiSsaVFg {
+    --font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-secondary: "Graphik", Helvetica, sans-serif;
+    --background-color: #1e1e2e	!important;
+    --text-color: #cdd6f4 !important;
+    --text-color-active: #bac2de !important;
+    --link-hover-color: #a6adc8 !important;
+    --consumer-nav-height: 72px;
+}
+    
+    [data-theme=light] {
+        --sds-webc-color-surface-buttonbg-secondary: #bac2de !important
+    }
+    
+    
+}
+
+
+
+
+
+
