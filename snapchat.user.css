@@ -28,13 +28,13 @@
 
     /* text highlight */
     ::selection {
-        background: fadeout(#f38ba8, 100%) !important;
+        background: #f38ba880 !important;
         color: #cdd6f4 !important;
     }
 
 
     ::-moz-selection {
-        background: fadeout(#f38ba8, 100%) !important;
+        background: #f38ba880 !important;
         color: #cdd6f4 !important;
     }
 
@@ -75,8 +75,7 @@
         @accent-color: @catppuccin[@@lookup][@@accent];
 
         /* apply everywhere */
-
-        :root[theme=dark], :root, *, & {
+        :root[theme=dark], [data-theme=light], :root, *, & {
 
             --sigIconPrimary: @text !important;
             --sigIconTertiary: @subtext1 !important;
@@ -149,6 +148,17 @@
             --sigIconPrimaryInverse: @text !important;
             --sigTextPlayer: @text !important;
             --sigTextInactive: @subtext1 !important;
+            
+            
+            --cw-dark-yellow: @yellow !important;
+            --yellow-v125: @yellow !important;
+            --yellow-v100: @yellow !important;
+            --black-v200: @base !important;
+            --black-v150: @base !important;
+            --gray-v50: @text !important;
+            --white: @text !important;
+            --gray-v75: @text !important;
+
         }
     }
 }
@@ -272,5 +282,7 @@
         @base: #1e1e2e;
         @mantle: #181825;
         @crust: #11111b;
-    };
-};
+    }
+    ;
+}
+;
