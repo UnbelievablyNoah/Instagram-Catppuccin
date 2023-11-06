@@ -4,7 +4,7 @@
 @version 2.0.0
 @updateURL https://raw.githubusercontent.com/UnbelievablyNoah/Noah-Catppuccin/master/instagram.user.css
 @description Soothing pastel theme for Instagram
-@author Catppuccin
+@author Noah C
 @license MIT
 
 @preprocessor less
@@ -18,25 +18,13 @@
         font-weight: 700 !important;
     }
 
-   body::-webkit-scrollbar, *::-webkit-scrollbar {
+    body::-webkit-scrollbar, *::-webkit-scrollbar {
         overflow: hidden !important;
         width: 0 !important;
         /* Hide  scrollbars */
     }
-          
 
-    /* text highlight */
-    ::selection {
-        background: fadeout(#f38ba8, 90%) !important;
-        color: #cdd6f4 !important;
-    }
 
-    
-    ::-moz-selection {
-        background: fadeout(#f38ba8, 90%) !important;
-        color: #cdd6f4 !important;
-    }
-    
 
     html > body > div > div > div > div > div > div > div > div > div > div > div > section > main > div > header > section > div > a + div + div + div, div.xj3m2qm, svg[aria-label="Threads"], .x1yrsyyn.x10b6aqq, .xdy9tzy {
         display: none !important;
@@ -146,8 +134,24 @@
             color-scheme: dark;
         }
 
+        /* text highlight */
+        ::selection {
+            background: @accent-color !important;
+            color: @text !important;
+        }
+
+
+        ::-moz-selection {
+            background: @accent-color !important;
+            color: @text !important;
+        }
     }
 
+
+    body {
+        color: #cdd6f4 !important;
+        background: #1e1e2e !important;
+    }
 
     * {
         stroke: #cdd6f4 !important;
