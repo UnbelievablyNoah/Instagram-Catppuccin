@@ -4,47 +4,37 @@
 @version 2.0.0
 @updateURL https://raw.githubusercontent.com/UnbelievablyNoah/Noah-Catppuccin/master/snapchat.user.css
 @description Soothing pastel theme for Snapchat
-@author Noah C
+@author Catppuccin
 @license MIT
 
 @preprocessor less
+@var checkbox fontBold "Bold Font" 1
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*"]
 @var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red*", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
-@var text scrollbar_width "Scrollbar width" 8px
 ==/UserStyle== */
 @-moz-document domain("snapchat.com") {
-
-
-    * {
-        font-weight: 700 !important;
-    }
-
-    body::-webkit-scrollbar, *::-webkit-scrollbar {
-        overflow: hidden !important;
-        width: 0 !important;
-        /* Hide  scrollbars */
-    }
-
-
-    /* text highlight */
-    ::selection {
-        background: #f38ba880 !important;
-        color: #cdd6f4 !important;
-    }
-
-
-    ::-moz-selection {
-        background: #f38ba880 !important;
-        color: #cdd6f4 !important;
-    }
 
 
 
     /* snapchat.com */
     :root {
         #catppuccin(@darkFlavor, @accentColor);
+        #fontBold(@fontBold);
+    }
+    
+    
+    #fontBold(@fontBold) when (@fontBold =1) {
+        * {
+            font-weight: 700 !important;
+        }
     }
 
+    
+    html > body > main > div > div > .wHvEy {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    
     #catppuccin(@lookup, @accent) {
         @rosewater: @catppuccin[@@lookup][@rosewater];
         @flamingo: @catppuccin[@@lookup][@flamingo];
@@ -75,7 +65,7 @@
         @accent-color: @catppuccin[@@lookup][@@accent];
 
         /* apply everywhere */
-        :root[theme=dark], [data-theme=light], :root, *, & {
+        :root[theme=dark], :root, *, & {
 
             --sigIconPrimary: @text !important;
             --sigIconTertiary: @subtext1 !important;
@@ -148,17 +138,28 @@
             --sigIconPrimaryInverse: @text !important;
             --sigTextPlayer: @text !important;
             --sigTextInactive: @subtext1 !important;
-            
-            
-            --cw-dark-yellow: @yellow !important;
-            --yellow-v125: @yellow !important;
-            --yellow-v100: @yellow !important;
-            --black-v200: @base !important;
-            --black-v150: @base !important;
-            --gray-v50: @text !important;
-            --white: @text !important;
-            --gray-v75: @text !important;
+        }
 
+        .hSQnC, .JwhOC {
+            border-color: @text !important;
+        }
+
+        body::-webkit-scrollbar, *::-webkit-scrollbar {
+            overflow: hidden !important;
+            width: 0 !important;
+            /* Hide  scrollbars */
+        }
+
+
+        /* text highlight */
+        ::selection {
+            background: fadeout(@accent-color, 80%) !important;
+            color: @text !important;
+        }
+
+        ::-moz-selection {
+            background: fadeout(@accent-color, 80%) !important;
+            color: @text !important;
         }
     }
 }
