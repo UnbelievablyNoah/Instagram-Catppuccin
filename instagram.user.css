@@ -71,16 +71,16 @@
             --always-white: @text !important;
             --web-always-white: @text !important;
             --always-black: @surface0 !important;
-            /* --ig-text-on-color: rgb(245, 245, 245);   */
-            /* --ig-text-on-media: rgb(245, 245, 245);   */
+            --ig-text-on-color: @text !important;
+            --ig-text-on-media: @text !important
             --tos-box-shadow: @text !important;
             --web-overlay-on-media: @crust !important;
             --web-secondary-action: @text !important;
 
 
 
-            /* --modal-backdrop-dark: rgb(rgba(0, 0, 0, 0.85));   */
-            /* --modal-backdrop-default: rgb(rgba(0, 0, 0, 0.65));   */
+            --modal-backdrop-dark: @crust !important;
+            --modal-backdrop-default: @crust !important;
             --ig-primary-background: @base !important;
             --ig-primary-button: @red !important;
             --ig-primary-button-hover: @maroon !important;
@@ -94,13 +94,13 @@
 
             --ig-tertiary-button-background: @red !important;
             --ig-tertiary-button-border: @overlay0 !important;
-            /* --ig-tertiary-button-hover: rgb(245, 245, 245);  */
-            /* --ig-tertiary-button-text: rgb(245, 245, 245);  */
+            --ig-tertiary-button-hover: @text !important;
+            --ig-tertiary-button-text: @text !important;
             --ig-tertiary-text: @overlay0 !important;
 
 
             --ig-separator: @crust !important;
-            /* --ig-stroke:   */
+            --ig-stroke: @mantle !important;
             --gradient-lavender: @lavender !important;
             --gradient-orange: @peach !important;
             --gradient-pink: @pink !important;
@@ -111,9 +111,9 @@
             --ig-banner-background: @base !important;
             --ig-close-friends-refreshed: @green !important;
             --ig-elevated-background: @mantle !important;
-            /* --ig-elevated-highlight-background:  */
+            --ig-elevated-highlight-background: @crust !important;
             --ig-elevated-separator: @mantle !important;
-            /* --ig-focus-stroke: */
+            --ig-focus-stroke: @mantle !important;
             --ig-highlight-background: @surface0 !important;
             --ig-hover-overlay: @red !important;
             --ig-link: @red !important;
@@ -121,7 +121,7 @@
             --ig-subscribers-only: @mauve !important;
             --ig-success: @green !important;
             --ig-temporary-highlight: @red !important;
-            /* --post-separator:   */
+            --post-separator: @mantle !important;
             --orange-5: @peach !important;
             --pink-5: @pink !important;
             --purple-5: @mauve !important;
@@ -129,6 +129,7 @@
             --grey-2: @overlay0 !important;
             --grey-11: @subtext1 !important;
             --barcelona-logo: @text !important;
+            
 
             --creation-header-height: 43px !important;
             --creation-min-padding-x: 32px !important;
@@ -227,7 +228,7 @@
             --system-32-line-height: 40px !important;
 
 
-            color-scheme: dark;
+            color-scheme: dark !important;
         }
 
         /* text highlight */
@@ -242,9 +243,13 @@
             color: @text !important;
         }
 
-        body {
+        body, button, input, textarea {
             color: @text !important;
             background: @base !important;
+        }
+            
+        .UDpcu {
+            background-color: rgb(@base) !important;
         }
         
     }
