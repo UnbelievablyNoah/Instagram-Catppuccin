@@ -72,7 +72,7 @@
             --web-always-white: @text !important;
             --always-black: @surface0 !important;
             --ig-text-on-color: @text !important;
-            --ig-text-on-media: @text !important
+            --ig-text-on-media: @red !important;
             --tos-box-shadow: @text !important;
             --web-overlay-on-media: @crust !important;
             --web-secondary-action: @text !important;
@@ -88,15 +88,15 @@
 
             --ig-secondary-background: @mantle !important;
             --ig-secondary-button: @maroon !important;
-            --ig-secondary-button-background: @overlay2 !important;
-            --ig-secondary-button-hover: @overlay0 !important;
-            --ig-secondary-text: @overlay1 !important;
+            --ig-secondary-button-background: @crust !important;
+            --ig-secondary-button-hover: @mantle !important;
+            --ig-secondary-text: @subtext1 !important;
 
             --ig-tertiary-button-background: @red !important;
             --ig-tertiary-button-border: @overlay0 !important;
             --ig-tertiary-button-hover: @text !important;
             --ig-tertiary-button-text: @text !important;
-            --ig-tertiary-text: @overlay0 !important;
+            --ig-tertiary-text: @subtext0 !important;
 
 
             --ig-separator: @crust !important;
@@ -126,10 +126,10 @@
             --pink-5: @pink !important;
             --purple-5: @mauve !important;
             --yellow-5: @yellow !important;
-            --grey-2: @overlay0 !important;
+            --grey-2: @subtext0 !important;
             --grey-11: @subtext1 !important;
             --barcelona-logo: @text !important;
-            
+
 
             --creation-header-height: 43px !important;
             --creation-min-padding-x: 32px !important;
@@ -228,6 +228,28 @@
             --system-32-line-height: 40px !important;
 
 
+            --barcelona-primary-button: @text !important;
+            --barcelona-secondary-text: @text !important;
+            --challenge-link: @red !important;
+            --ig-disabled-action-text: @surface0 !important;
+            --ig-error-or-destructive: @red !important;
+
+            --ig-primary-icon: @text !important;
+            --ig-secondary-icon: @overlay1 !important;
+            --ig-stroke-on-media: @red !important;
+            --ig-tertiary-icon: @overlay0 !important;
+            /* --ig-text-input-border-prism: 50, 53, 57;
+            --ig-text-input-border-hover-prism: 248, 249, 249;
+            --ig-toggle-background-on-prism: 248, 249, 249;
+            --ig-toggle-background-off-prism: 50, 53, 57;
+            --ig-toggle-background-disabled-on-prism: 111, 118, 128;
+            --ig-toggle-background-disabled-off-prism: 41, 41, 46;
+            --ig-toggle-outline-prism: 219, 223, 228;
+            --ig-toggle-outline-disabled-prism: 94, 100, 109;
+            --ig-stroke-prism: 15, 20, 25;
+            --ig-stroke-disabled-on-prism: 50, 53, 57;
+            --ig-stroke-disabled-off-prism: 33, 35, 38;
+            */
             color-scheme: dark !important;
         }
 
@@ -244,18 +266,23 @@
         }
 
         body, button, input, textarea {
-            color: @text !important;
-            background: @base !important;
+            color: rgb(@text) !important;
+            background: rgb(@base) !important;
         }
-            
+
         .UDpcu {
             background-color: rgb(@base) !important;
         }
         
     }
 
+    /*
     * {
         stroke: #cdd6f4 !important;
+    }
+    */
+    a, a:visited {
+        color: #f38ba8 !important;
     }
 
     div#splash-screen {
@@ -270,7 +297,7 @@
         background-color: #9399b2 !important;
     }
 
-    ._ac3p {
+    ._ac3p, .x1caxmr6 {
         background-color: #f38ba8 !important;
     }
 
