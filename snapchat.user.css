@@ -8,7 +8,7 @@
 @license MIT
 
 @preprocessor less
-@var checkbox fontBold "Bold Font" 1
+@var checkbox fontBold "Bold Font" 0
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*"]
 @var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red*", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
 ==/UserStyle== */
@@ -21,20 +21,20 @@
         #catppuccin(@darkFlavor, @accentColor);
         #fontBold(@fontBold);
     }
-    
-    
+
+
     #fontBold(@fontBold) when (@fontBold =1) {
         * {
             font-weight: 700 !important;
         }
     }
 
-    
-    html > body > main > div > div > .wHvEy {
+
+    html > body > main > div > div > .wHvEy, div.Fpg8t > div.Vbjsg.WJjwl > div > div > div > div.NZXMZ, div.Fpg8t > div.Vbjsg.WJjwl > div > div > div > div.k1IaM > div.kxqcc > button {
         display: none !important;
         visibility: hidden !important;
     }
-    
+
     #catppuccin(@lookup, @accent) {
         @rosewater: @catppuccin[@@lookup][@rosewater];
         @flamingo: @catppuccin[@@lookup][@flamingo];
