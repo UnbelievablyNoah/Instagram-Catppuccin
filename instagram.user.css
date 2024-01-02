@@ -10,13 +10,20 @@
 @preprocessor less
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*"]
 @var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red*", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
-@var text scrollbar_width "Scrollbar width" 8px
+@var checkbox comicSans "Comic Sans" 0
 ==/UserStyle== */
 @-moz-document domain("instagram.com") {
 
     * {
         font-weight: 700 !important;
+        /* font-family: "Comic Sans MS", "Comic Sans", cursive !important; */
     }
+
+    @rgb-raw: red;
+    #rgbify(@color) {
+        @rgb-raw: red(@color), green(@color), blue(@color);
+    }
+
 
     body::-webkit-scrollbar, *::-webkit-scrollbar {
         overflow: hidden !important;
@@ -25,15 +32,14 @@
     }
 
 
-
-    html > body > div > div > div > div > div > div > div > div > div > div > div > section > main > div > header > section > div > a + div + div + div, div.xj3m2qm, svg[aria-label="Threads"], .x1yrsyyn.x10b6aqq, .xdy9tzy {
+    html > body > div > div > div > div > div > div > div > div > div > div > div > section > main > div > header > section > div > a + div + div + div, div.xj3m2qm, .xdy9tzy {
         display: none !important;
         visibility: hidden !important;
     }
 
 
     /* instagram.com */
-    :root {
+    :root, ._aa4d {
         #catppuccin(@darkFlavor, @accentColor);
     }
 
@@ -233,6 +239,8 @@
             --challenge-link: @red !important;
             --ig-disabled-action-text: @surface0 !important;
             --ig-error-or-destructive: @red !important;
+            
+            
 
             --ig-primary-icon: @text !important;
             --ig-secondary-icon: @overlay1 !important;
@@ -252,20 +260,29 @@
             */
             color-scheme: dark !important;
         }
+        
+        
+
+        .x1ms8i2q {
+            font-size: 25px !important
+        }
 
         /* text highlight */
         ::selection {
-            background: @accent-color !important;
-            color: @text !important;
+            background: rgba(@accent-color, .8) !important;
+            color: rgb(@text) !important;
         }
-
 
         ::-moz-selection {
-            background: @accent-color !important;
-            color: @text !important;
+            background: rgba(@accent-color, .8) !important;
+            color: rgb(@text) !important;
         }
 
-        body, button, input, textarea {
+        button, input, textarea, .xcslo1z {
+            color: rgb(@text) !important;
+        }
+
+        body {
             color: rgb(@text) !important;
             background: rgb(@base) !important;
         }
@@ -273,30 +290,70 @@
         .UDpcu {
             background-color: rgb(@base) !important;
         }
+
+        div#splash-screen {
+            background-color: rgb(@base) !important;
+        }
+        ._ab6- {
+            fill: rgb(@text) !important;
+        }
+        ._ac3o {
+            background-color: rgba(@accent-color, .3) !important;
+        }
+        ._ac3p, .x1caxmr6 {
+            background-color: rgb(@accent-color) !important;
+        }
+
+        ._ac0s, ._ac0s:visited, ._ac0s:active, ._ac0s:hover, ._ac0s:focus {
+            color: rgb(@accent-color) !important
+        }
+
+        ._ac0t {
+            color: rgb(@accent-color) !important;
+            filter: brightness(95%) !important;
+        }
+
+        .x5qyhuo {
+            background-color: rgb(@base) !important;
+        }
+
+        ._ac0k {
+            background: linear-gradient(180deg, rgba(@base, .8) 0%, rgba(@base, 0) 100%) !important;
+        }
+
+        ._ac3p ._ac3q, ._ac3q {
+            transition: width, 0s, ease, 0.5s !important;
+        }
         
+        .x1bhxuv2 {
+            background-color: rgb(@text) !important;
+        }
+        
+        svg[aria-label="Play"] > svg > path {
+            fill: rgb(@text) !important;
+        }
     }
 
     /*
     * {
         stroke: #cdd6f4 !important;
     }
-    */
-    a, a:visited {
+    
+    
+    
+        a, a:visited {
         color: #f38ba8 !important;
     }
-
-    div#splash-screen {
+        div#splash-screen {
         background-color: #1e1e2e !important;
     }
 
     ._ab6- {
         fill: #cdd6f4 !important;
     }
-
-    ._ac3o {
+        ._ac3o {
         background-color: #9399b2 !important;
     }
-
     ._ac3p, .x1caxmr6 {
         background-color: #f38ba8 !important;
     }
@@ -312,15 +369,10 @@
     .x5qyhuo {
         background-color: #1e1e2e !important;
     }
-
-    ._ac0k {
+        ._ac0k {
         background: linear-gradient(180deg, rgba(30, 30, 46, .8) 0%, rgba(30, 30, 46, 0) 100%) !important;
     }
-
-    .x1ms8i2q {
-        font-size: 25px !important
-    }
-
+    */
     @catppuccin: {
         @latte: {
             @rosewater: 220, 138, 120;
