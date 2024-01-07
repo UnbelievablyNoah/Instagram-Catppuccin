@@ -1,13 +1,15 @@
 /* ==UserStyle==
-@name Snapchat Catppuccin
-@namespace github.com/openstyles/stylus
-@version 2.0.0
-@updateURL https://raw.githubusercontent.com/UnbelievablyNoah/Noah-Catppuccin/master/snapchat.user.css
-@description Soothing pastel theme for Snapchat
-@author Catppuccin
-@license MIT
+@name           Snapchat Catppuccin
+@namespace      github.com/openstyles/stylus
+@version        2.1.0
+@updateURL      https://raw.githubusercontent.com/UnbelievablyNoah/Noah-Catppuccin/master/snapchat.user.css
+@homepageURL    https://web.snapchat.com/
+@description    Soothing pastel theme for Snapchat
+@author         Catppuccin
+@license        MIT
 
-@preprocessor less
+@preprocessor   less
+
 @var checkbox fontBold "Bold Font" 0
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*"]
 @var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red*", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
