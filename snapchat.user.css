@@ -1,8 +1,10 @@
 /* ==UserStyle==
 @name           Snapchat Catppuccin
-@namespace      github.com/openstyles/stylus
+@namespace      github.com/UnbelievablyNoah/Noah-Catppuccin
+@homepageURL    https://github.com/UnbelievablyNoah/Noah-Catppuccin/blob/master/snapchat.user.css
 @version        2.1.0
 @updateURL      https://raw.githubusercontent.com/UnbelievablyNoah/Noah-Catppuccin/master/snapchat.user.css
+@supportURL     https://github.com/UnbelievablyNoah/Noah-Catppuccin/issues?q=is%3Aopen+is%3Aissue+label%3Asnapchat
 @homepageURL    https://web.snapchat.com/
 @description    Soothing pastel theme for Snapchat
 @author         Catppuccin
@@ -16,12 +18,16 @@
 ==/UserStyle== */
 @-moz-document domain("snapchat.com") {
 
-
-
     /* snapchat.com */
     :root {
         #catppuccin(@darkFlavor, @accentColor);
         #fontBold(@fontBold);
+    }
+
+    body::-webkit-scrollbar, *::-webkit-scrollbar {
+        overflow: hidden !important;
+        width: 0 !important;
+        /* Hide  scrollbars */
     }
 
 
@@ -146,12 +152,13 @@
             border-color: @text !important;
         }
 
-        body::-webkit-scrollbar, *::-webkit-scrollbar {
-            overflow: hidden !important;
-            width: 0 !important;
-            /* Hide  scrollbars */
+        .fwFE1 {
+            background-image: linear-gradient(90deg, transparent 0%, fadeout(@mantle, 50%) 50%, fadeout(@mantle, 100%) 100%) !important;
         }
 
+        .jvfCR {
+            background-image: linear-gradient(180deg, transparent 0%, fadeout(@mantle, 50%) 50%, fadeout(@mantle, 100%) 100%) !important;
+        }
 
         /* text highlight */
         ::selection {
