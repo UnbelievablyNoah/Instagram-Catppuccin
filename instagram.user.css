@@ -73,180 +73,182 @@
         @accent-color: @catppuccin[@@lookup][@@accent];
 
         /* apply everywhere */
-        ._aa4d, ._aa4c, body._a3wf, body, html, &, * {
-            --always-white: @text !important;
-            --web-always-white: @text !important;
-            --always-black: @surface0 !important;
-            --ig-text-on-color: @text !important;
-            --ig-text-on-media: @red !important;
-            --tos-box-shadow: @text !important;
-            --web-overlay-on-media: @crust !important;
-            --web-secondary-action: @text !important;
+        body, html, &, * {
+
+            ._aa4d, ._aa4c, body._a3wf {
+                --always-white: @text !important;
+                --web-always-white: @text !important;
+                --always-black: @surface0 !important;
+                --ig-text-on-color: @text !important;
+                --ig-text-on-media: @red !important;
+                --tos-box-shadow: @text !important;
+                --web-overlay-on-media: @crust !important;
+                --web-secondary-action: @text !important;
 
 
 
-            --modal-backdrop-dark: @crust !important;
-            --modal-backdrop-default: @crust !important;
-            --ig-primary-background: @base !important;
-            --ig-primary-button: @red !important;
-            --ig-primary-button-hover: @maroon !important;
-            --ig-primary-text: @text !important;
+                --modal-backdrop-dark: @crust !important;
+                --modal-backdrop-default: @crust !important;
+                --ig-primary-background: @base !important;
+                --ig-primary-button: @red !important;
+                --ig-primary-button-hover: @maroon !important;
+                --ig-primary-text: @text !important;
 
-            --ig-secondary-background: @mantle !important;
-            --ig-secondary-button: @maroon !important;
-            --ig-secondary-button-background: @crust !important;
-            --ig-secondary-button-hover: @mantle !important;
-            --ig-secondary-text: @subtext1 !important;
+                --ig-secondary-background: @mantle !important;
+                --ig-secondary-button: @maroon !important;
+                --ig-secondary-button-background: @crust !important;
+                --ig-secondary-button-hover: @mantle !important;
+                --ig-secondary-text: @subtext1 !important;
 
-            --ig-tertiary-button-background: @red !important;
-            --ig-tertiary-button-border: @overlay0 !important;
-            --ig-tertiary-button-hover: @text !important;
-            --ig-tertiary-button-text: @text !important;
-            --ig-tertiary-text: @subtext0 !important;
-
-
-            --ig-separator: @crust !important;
-            --ig-stroke: @mantle !important;
-            --gradient-lavender: @lavender !important;
-            --gradient-orange: @peach !important;
-            --gradient-pink: @pink !important;
-            --gradient-purple: @mauve !important;
-            --gradient-red: @red !important;
-            --gradient-yellow: @yellow !important;
-            --ig-badge: @red !important;
-            --ig-banner-background: @base !important;
-            --ig-close-friends-refreshed: @green !important;
-            --ig-elevated-background: @mantle !important;
-            --ig-elevated-highlight-background: @crust !important;
-            --ig-elevated-separator: @mantle !important;
-            --ig-focus-stroke: @mantle !important;
-            --ig-highlight-background: @surface0 !important;
-            --ig-hover-overlay: @red !important;
-            --ig-link: @red !important;
-            --ig-live-badge: @maroon !important;
-            --ig-subscribers-only: @mauve !important;
-            --ig-success: @green !important;
-            --ig-temporary-highlight: @red !important;
-            --post-separator: @mantle !important;
-            --orange-5: @peach !important;
-            --pink-5: @pink !important;
-            --purple-5: @mauve !important;
-            --yellow-5: @yellow !important;
-            --grey-2: @subtext0 !important;
-            --grey-11: @subtext1 !important;
-            --barcelona-logo: @text !important;
+                --ig-tertiary-button-background: @red !important;
+                --ig-tertiary-button-border: @overlay0 !important;
+                --ig-tertiary-button-hover: @text !important;
+                --ig-tertiary-button-text: @text !important;
+                --ig-tertiary-text: @subtext0 !important;
 
 
-            --creation-header-height: 43px !important;
-            --creation-min-padding-x: 32px !important;
-            --creation-modal-max-height: 898px !important;
-            --creation-modal-min-height: 391px !important;
-            --creation-padding-x: 64px !important;
-            --creation-padding-y: 112px !important;
-            --creation-settings-width: 340px !important;
-            --desktop-grid-item-margin: 28px !important;
-            --desktop-grid-item-margin-slim: 4px !important;
-            --desktop-in-feed-story-item-height: 208px !important;
-            --desktop-in-feed-story-item-width: 116px !important;
-            --direct-attachment-image-grid-item-size: 78px !important;
-            --direct-attachment-story-height: 150px !important;
-            --direct-attachment-story-large-height: 256px !important;
-            --direct-attachment-story-large-width: 164px !important;
-            --direct-attachment-story-width: 84px !important;
-            --direct-message-max-width: 236px !important;
-            --fb-signup-page-profile-pic-size: 88px !important;
-            --feed-sidebar-padding: 32px !important;
-            --feed-sidebar-padding-familiar: 64px !important;
-            --feed-sidebar-width: 319px !important;
-            --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
-            --font-family-system-prism: 'Instagram Sans UI', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
-            --font-weight-system-bold: 700 !important;
-            --font-weight-system-extra-bold: 800 !important;
-            --font-weight-system-extra-light: 200 !important;
-            --font-weight-system-light: 300 !important;
-            --font-weight-system-medium: 500 !important;
-            --font-weight-system-regular: 400 !important;
-            --font-weight-system-semibold: 600 !important;
-            --in-feed-story-item-height: 240px !important;
-            --in-feed-story-item-width: 135px !important;
-            --input-border-radius: 6px !important;
-            --large-layout-min: 1500px !important;
-            --live-video-border-radius: 4px !important;
-            --media-info: 335px !important;
-            --medium-layout-max: 1499px !important;
-            --medium-layout-min: 1080px !important;
-            --mobile-grid-item-margin: 2px !important;
-            --mobile-nav-height: 45px !important;
-            --modal-border-radius: 12px !important;
-            --modal-padding: 16px !important;
-            --modal-z-index: 100 !important;
-            --nav-narrow-width: 72px !important;
-            --nav-medium-width: 244px !important;
-            --nav-wide-width: 335px !important;
-            --photo: 600px !important;
-            --refinement-section-height: 50px !important;
-            --revamp-nav-bottom-toolbar-height: 50px !important;
-            --revamp-feed-card-max-height: 835px !important;
-            --revamp-feed-card-min-height: 615px !important;
-            --revamp-feed-card-media-min-width: 390px !important;
-            --revamp-feed-card-dense-padding: 16px !important;
-            --revamp-feed-horizontal-padding-small-screen: 24px !important;
-            --revamp-feed-horizontal-padding-large-screen: 32px !important;
-            --revamp-feed-vertical-padding: 32px !important;
-            --right-rail-width: 352px !important;
-            --nav-wide-screen-min: 1920px !important;
-            --scrollable-content-header-height-med: 49px !important;
-            --scrollable-content-header-height: 44px !important;
-            --search-box-height: 40px !important;
-            --search-modal-height-expanded: 450px !important;
-            --search-modal-height: 362px !important;
-            --search-modal-top-offset: 12px !important;
-            --search-result-height: 50px !important;
-            --search-result-inline-top-offset: 60px !important;
-            --search-result-list-width: 375px !important;
-            --small-layout-max: 1079px !important;
-            --small-layout-min: 800px !important;
-            --story-gallery-preview-scale-correction: 2.5 !important;
-            --story-progressbar-update-tick: .1s !important;
-            --story-swap-animation-duration: 350ms !important;
-            --system-10-font-size: 10px !important;
-            --system-10-line-height: 12px !important;
-            --system-11-font-size: 11px !important;
-            --system-11-line-height: 13px !important;
-            --system-12-font-size: 12px !important;
-            --system-12-line-height: 16px !important;
-            --system-14-font-size: 14px !important;
-            --system-14-line-height: 18px !important;
-            --system-16-font-size: 16px !important;
-            --system-16-line-height: 24px !important;
-            --system-18-font-size: 18px !important;
-            --system-18-line-height: 24px !important;
-            --system-20-line-height: 25px !important;
-            --system-22-font-size: 22px !important;
-            --system-22-line-height: 26px !important;
-            --system-24-font-size: 24px !important;
-            --system-24-line-height: 27px !important;
-            --system-26-font-size: 26px !important;
-            --system-26-line-height: 28px !important;
-            --system-28-font-size: 28px !important;
-            --system-28-line-height: 32px !important;
-            --system-32-font-size: 32px !important;
-            --system-32-line-height: 40px !important;
+                --ig-separator: @crust !important;
+                --ig-stroke: @mantle !important;
+                --gradient-lavender: @lavender !important;
+                --gradient-orange: @peach !important;
+                --gradient-pink: @pink !important;
+                --gradient-purple: @mauve !important;
+                --gradient-red: @red !important;
+                --gradient-yellow: @yellow !important;
+                --ig-badge: @red !important;
+                --ig-banner-background: @base !important;
+                --ig-close-friends-refreshed: @green !important;
+                --ig-elevated-background: @mantle !important;
+                --ig-elevated-highlight-background: @crust !important;
+                --ig-elevated-separator: @mantle !important;
+                --ig-focus-stroke: @mantle !important;
+                --ig-highlight-background: @surface0 !important;
+                --ig-hover-overlay: @red, 0.5 !important;
+                --ig-link: @red !important;
+                --ig-live-badge: @maroon !important;
+                --ig-subscribers-only: @mauve !important;
+                --ig-success: @green !important;
+                --ig-temporary-highlight: @red !important;
+                --post-separator: @mantle !important;
+                --orange-5: @peach !important;
+                --pink-5: @pink !important;
+                --purple-5: @mauve !important;
+                --yellow-5: @yellow !important;
+                --grey-2: @subtext0 !important;
+                --grey-11: @subtext1 !important;
+                --barcelona-logo: @text !important;
 
 
-            --barcelona-primary-button: @text !important;
-            --barcelona-secondary-text: @text !important;
-            --challenge-link: @red !important;
-            --ig-disabled-action-text: @surface0 !important;
-            --ig-error-or-destructive: @red !important;
-            
-            
+                --creation-header-height: 43px !important;
+                --creation-min-padding-x: 32px !important;
+                --creation-modal-max-height: 898px !important;
+                --creation-modal-min-height: 391px !important;
+                --creation-padding-x: 64px !important;
+                --creation-padding-y: 112px !important;
+                --creation-settings-width: 340px !important;
+                --desktop-grid-item-margin: 28px !important;
+                --desktop-grid-item-margin-slim: 4px !important;
+                --desktop-in-feed-story-item-height: 208px !important;
+                --desktop-in-feed-story-item-width: 116px !important;
+                --direct-attachment-image-grid-item-size: 78px !important;
+                --direct-attachment-story-height: 150px !important;
+                --direct-attachment-story-large-height: 256px !important;
+                --direct-attachment-story-large-width: 164px !important;
+                --direct-attachment-story-width: 84px !important;
+                --direct-message-max-width: 236px !important;
+                --fb-signup-page-profile-pic-size: 88px !important;
+                --feed-sidebar-padding: 32px !important;
+                --feed-sidebar-padding-familiar: 64px !important;
+                --feed-sidebar-width: 319px !important;
+                --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+                --font-family-system-prism: 'Instagram Sans UI', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+                --font-weight-system-bold: 700 !important;
+                --font-weight-system-extra-bold: 800 !important;
+                --font-weight-system-extra-light: 200 !important;
+                --font-weight-system-light: 300 !important;
+                --font-weight-system-medium: 500 !important;
+                --font-weight-system-regular: 400 !important;
+                --font-weight-system-semibold: 600 !important;
+                --in-feed-story-item-height: 240px !important;
+                --in-feed-story-item-width: 135px !important;
+                --input-border-radius: 6px !important;
+                --large-layout-min: 1500px !important;
+                --live-video-border-radius: 4px !important;
+                --media-info: 335px !important;
+                --medium-layout-max: 1499px !important;
+                --medium-layout-min: 1080px !important;
+                --mobile-grid-item-margin: 2px !important;
+                --mobile-nav-height: 45px !important;
+                --modal-border-radius: 12px !important;
+                --modal-padding: 16px !important;
+                --modal-z-index: 100 !important;
+                --nav-narrow-width: 72px !important;
+                --nav-medium-width: 244px !important;
+                --nav-wide-width: 335px !important;
+                --photo: 600px !important;
+                --refinement-section-height: 50px !important;
+                --revamp-nav-bottom-toolbar-height: 50px !important;
+                --revamp-feed-card-max-height: 835px !important;
+                --revamp-feed-card-min-height: 615px !important;
+                --revamp-feed-card-media-min-width: 390px !important;
+                --revamp-feed-card-dense-padding: 16px !important;
+                --revamp-feed-horizontal-padding-small-screen: 24px !important;
+                --revamp-feed-horizontal-padding-large-screen: 32px !important;
+                --revamp-feed-vertical-padding: 32px !important;
+                --right-rail-width: 352px !important;
+                --nav-wide-screen-min: 1920px !important;
+                --scrollable-content-header-height-med: 49px !important;
+                --scrollable-content-header-height: 44px !important;
+                --search-box-height: 40px !important;
+                --search-modal-height-expanded: 450px !important;
+                --search-modal-height: 362px !important;
+                --search-modal-top-offset: 12px !important;
+                --search-result-height: 50px !important;
+                --search-result-inline-top-offset: 60px !important;
+                --search-result-list-width: 375px !important;
+                --small-layout-max: 1079px !important;
+                --small-layout-min: 800px !important;
+                --story-gallery-preview-scale-correction: 2.5 !important;
+                --story-progressbar-update-tick: .1s !important;
+                --story-swap-animation-duration: 350ms !important;
+                --system-10-font-size: 10px !important;
+                --system-10-line-height: 12px !important;
+                --system-11-font-size: 11px !important;
+                --system-11-line-height: 13px !important;
+                --system-12-font-size: 12px !important;
+                --system-12-line-height: 16px !important;
+                --system-14-font-size: 14px !important;
+                --system-14-line-height: 18px !important;
+                --system-16-font-size: 16px !important;
+                --system-16-line-height: 24px !important;
+                --system-18-font-size: 18px !important;
+                --system-18-line-height: 24px !important;
+                --system-20-line-height: 25px !important;
+                --system-22-font-size: 22px !important;
+                --system-22-line-height: 26px !important;
+                --system-24-font-size: 24px !important;
+                --system-24-line-height: 27px !important;
+                --system-26-font-size: 26px !important;
+                --system-26-line-height: 28px !important;
+                --system-28-font-size: 28px !important;
+                --system-28-line-height: 32px !important;
+                --system-32-font-size: 32px !important;
+                --system-32-line-height: 40px !important;
 
-            --ig-primary-icon: @text !important;
-            --ig-secondary-icon: @overlay1 !important;
-            --ig-stroke-on-media: @red !important;
-            --ig-tertiary-icon: @overlay0 !important;
-            /* --ig-text-input-border-prism: 50, 53, 57;
+
+                --barcelona-primary-button: @text !important;
+                --barcelona-secondary-text: @text !important;
+                --challenge-link: @red !important;
+                --ig-disabled-action-text: @surface0 !important;
+                --ig-error-or-destructive: @red !important;
+
+
+
+                --ig-primary-icon: @text !important;
+                --ig-secondary-icon: @overlay1 !important;
+                --ig-stroke-on-media: @red !important;
+                --ig-tertiary-icon: @overlay0 !important;
+                /* --ig-text-input-border-prism: 50, 53, 57;
             --ig-text-input-border-hover-prism: 248, 249, 249;
             --ig-toggle-background-on-prism: 248, 249, 249;
             --ig-toggle-background-off-prism: 50, 53, 57;
@@ -258,10 +260,11 @@
             --ig-stroke-disabled-on-prism: 50, 53, 57;
             --ig-stroke-disabled-off-prism: 33, 35, 38;
             */
-            color-scheme: dark !important;
+                color-scheme: dark !important;
+            }
         }
-        
-        
+
+
 
         .x1ms8i2q {
             font-size: 25px !important
@@ -324,13 +327,21 @@
         ._ac3p ._ac3q, ._ac3q {
             transition: width, 0s, ease, 0.5s !important;
         }
-        
+
         .x1bhxuv2 {
             background-color: rgb(@text) !important;
         }
-        
+
         svg[aria-label="Play"] > svg > path {
             fill: rgb(@text) !important;
+        }
+
+        .x1vqgdyp {
+            height: 40mm !important;
+        }
+
+        .xisnujt {
+            color: rgb(@text) !important;
         }
     }
 
