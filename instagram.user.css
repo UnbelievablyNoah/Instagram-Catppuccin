@@ -1,29 +1,28 @@
 /* ==UserStyle==
+
 @name Instagram Catppuccin
 @namespace github.com/openstyles/stylus
 @version 2.0.0
 @updateURL https://raw.githubusercontent.com/UnbelievablyNoah/Noah-Catppuccin/master/instagram.user.css
 @description Soothing pastel theme for Instagram
 @author Catppuccin
+@homepageURL https://instagram.com/
 @license MIT
 
 @preprocessor less
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*"]
 @var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red*", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
-@var checkbox comicSans "Comic Sans" 0
+
+@var checkbox comicSans "Enable Comic Sans" 0
+@var checkbox fart "Enable fart" 0
+
 ==/UserStyle== */
-@-moz-document domain("instagram.com") {
+@-moz-document regexp("^https?://(www\\.)?instagram\\..*") {
 
     * {
-        font-weight: 700 !important;
+        /* font-weight: 700 !important; */
         /* font-family: "Comic Sans MS", "Comic Sans", cursive !important; */
     }
-
-    @rgb-raw: red;
-    #rgbify(@color) {
-        @rgb-raw: red(@color), green(@color), blue(@color);
-    }
-
 
     body::-webkit-scrollbar, *::-webkit-scrollbar {
         overflow: hidden !important;
@@ -32,15 +31,31 @@
     }
 
 
-    html > body > div > div > div > div > div > div > div > div > div > div > div > section > main > div > header > section > div > a + div + div + div, div.xj3m2qm, .xdy9tzy {
+    html>body>div>div>div>div>div>div>div>div>div>div>div>section>main>div>header>section>div>a+div+div+div, div.xj3m2qm, .xdy9tzy {
         display: none !important;
+        overflow: hidden !important;
         visibility: hidden !important;
     }
 
 
     /* instagram.com */
-    :root, ._aa4d {
+    :root {
         #catppuccin(@darkFlavor, @accentColor);
+        #comicSans(@comicSans);
+        #fart(@fart);
+    }
+
+    #comicSans(@comicSans) when (@comicSans =1) {
+        * {
+            font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+        }
+    }
+
+    #fart(@fart) when (@fart =1) {
+        *::before, *, *::after {
+            content: "fart" !important;
+            visibility: visible !important;
+        }
     }
 
     #catppuccin(@lookup, @accent) {
@@ -73,9 +88,9 @@
         @accent-color: @catppuccin[@@lookup][@@accent];
 
         /* apply everywhere */
-        body, html, &, * {
+        body, html, & {
 
-            ._aa4d, ._aa4c, body._a3wf {
+            ._aa4d, * {
                 --always-white: @text !important;
                 --web-always-white: @text !important;
                 --always-black: @surface0 !important;
@@ -84,7 +99,8 @@
                 --tos-box-shadow: @text !important;
                 --web-overlay-on-media: @crust !important;
                 --web-secondary-action: @text !important;
-
+                --chat-admin-text-color: rgb(@subtext1) !important;
+                --ig-bubble-background: @surface0 !important;
 
 
                 --modal-backdrop-dark: @crust !important;
@@ -116,7 +132,7 @@
                 --gradient-red: @red !important;
                 --gradient-yellow: @yellow !important;
                 --ig-badge: @red !important;
-                --ig-banner-background: @base !important;
+                --ig-banner-background: @mantle !important;
                 --ig-close-friends-refreshed: @green !important;
                 --ig-elevated-background: @mantle !important;
                 --ig-elevated-highlight-background: @crust !important;
@@ -130,13 +146,19 @@
                 --ig-success: @green !important;
                 --ig-temporary-highlight: @red !important;
                 --post-separator: @mantle !important;
+                --barcelona-logo: @text !important;
+
+
                 --orange-5: @peach !important;
                 --pink-5: @pink !important;
                 --purple-5: @mauve !important;
                 --yellow-5: @yellow !important;
                 --grey-2: @subtext0 !important;
+                --grey-9: @base !important;
                 --grey-11: @subtext1 !important;
-                --barcelona-logo: @text !important;
+
+                --ig-banner-highlight-background: @surface1 !important;
+                --ig-dropdown-background: @surface1 !important;
 
 
                 --creation-header-height: 43px !important;
@@ -248,23 +270,64 @@
                 --ig-secondary-icon: @overlay1 !important;
                 --ig-stroke-on-media: @red !important;
                 --ig-tertiary-icon: @overlay0 !important;
-                /* --ig-text-input-border-prism: 50, 53, 57;
-            --ig-text-input-border-hover-prism: 248, 249, 249;
-            --ig-toggle-background-on-prism: 248, 249, 249;
-            --ig-toggle-background-off-prism: 50, 53, 57;
-            --ig-toggle-background-disabled-on-prism: 111, 118, 128;
-            --ig-toggle-background-disabled-off-prism: 41, 41, 46;
-            --ig-toggle-outline-prism: 219, 223, 228;
-            --ig-toggle-outline-disabled-prism: 94, 100, 109;
-            --ig-stroke-prism: 15, 20, 25;
-            --ig-stroke-disabled-on-prism: 50, 53, 57;
-            --ig-stroke-disabled-off-prism: 33, 35, 38;
-            */
+
+                --card-background: rgb(@mantle) !important;
+                --messenger-card-background: rgb(@base) !important;
+                --comment-background: rgb(@crust) !important;
+
+                --ig-stroke-prism: @crust !important;
+                --ig-toggle-background-on-prism: @surface1 !important;
+                --ig-toggle-background-off-prism: @surface0 !important;
+                --ig-text-input-border-prism: @surface0 !important;
+                --ig-text-input-border-hover-prism: @surface1 !important;
+                --ig-toggle-background-disabled-on-prism: @mantle !important;
+                --ig-toggle-background-disabled-off-prism: @mantle !important;
+                --ig-toggle-outline-prism: @surface1 !important;
+                --ig-toggle-outline-disabled-prism: @crust !important;
+                --ig-stroke-disabled-on-prism: @mantle !important;
+                --ig-stroke-disabled-off-prism: @mantle !important;
+
                 color-scheme: dark !important;
+            }
+
+            .wbloks_1, .wbloks_2, .wbloks_3 {
+                --wbloks-error-or-destructive: rgb(@red) !important;
+                --wbloks-navbar-bg: rgb(@base) !important;
+                --wbloks-screen-wrapper-bg: rgb(@base) !important;
+                --wbloks-separator: rgb(@crust) !important;
+                --wbloks-primary-bg: rgb(@base) !important;
+                --wbloks-primary-text: rgb(@text) !important;
+                --wbloks-fds-gray-65: rgb(@subtext1) !important;
+                --wbloks-fds-white: rgb(@text) !important;
+                --wbloks-fig-blue-tint-90: rgb(@text) !important;
+                --wbloks-fig-blue-tint-10: rgb(@blue) !important;
+                --wbloks-switch-active: rgb(@accent-color) !important;
+                --wbloks-media-inner-border: rgba(@text, 0.05) !important;
+                --wbloks-divider: rgb(@crust) !important;
+                --wbloks-always-white: rgb(@text) !important;
+                --wbloks-shadow-5: rgba(@base, 0.05) !important;
+                --wbloks-fds-animation-move-in: cubic-bezier(0.17, 0.17, 0, 1);
+                --wbloks-fds-animation-move-out: cubic-bezier(0.17, 0.17, 0, 1);
+                --wbloks-fds-duration-extra-short-in: 200ms;
+                --wbloks-fds-duration-extra-short-out: 150ms;
+                --wbloks-cds-overlay-alpha-80: rgba(@mantle, 0.5) !important;
+                --wbloks-cds-surface-background: rgb(@base) !important;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                --chat-incoming-message-bubble-background-color: rgb(@surface0) !important;
+                --chat-outgoing-message-bubble-background-color: rgb(@accent-color) !important;
+                --secondary-text-on-media: rgb(@text) !important;
+                --accent: rgb(@red) !important;
+                --chat-replied-message-background-color: rgb(@mantle) !important;
+                --filter-secondary-icon: invert(75%) sepia(22%) saturate(273%) hue-rotate(190deg) brightness(90%) contrast(87%) !important;
             }
         }
 
 
+        h1, h2, h3, h4, h5, h6 {
+            color: rgb(@text) !important;
+        }
 
         .x1ms8i2q {
             font-size: 25px !important
@@ -281,8 +344,12 @@
             color: rgb(@text) !important;
         }
 
+        a {
+            color: rgb(@red) !important;
+        }
+
         button, input, textarea, .xcslo1z {
-            color: rgb(@text) !important;
+            color: rgb(@subtext1) !important;
         }
 
         body {
@@ -290,19 +357,45 @@
             background: rgb(@base) !important;
         }
 
+        html {
+            color: rgb(@text) !important;
+            background: rgb(@base) !important;
+        }
+
+        div.x9f619.x1n2onr6.x1ja2u2z.x78zum5.xdt5ytf.x1iyjqo2.xs83m0k.x193iq5w {
+            --chat-edit-message-overlay-color: rgb(@mantle) !important;
+        }
+
+        /* my text bubbles/text */
+        .x11jlvup {
+            background: linear-gradient(140deg, #89b4fa 0%, #f9e2af 50%, #f38ba8 75%) !important;
+        }
+
+        .xyk4ms5 {
+            color: rgb(@base) !important;
+        }
+
+        /* not my text bubbles */
+        .x1xr0vuk {
+            background-color: rgb(@surface0) !important;
+        }
+
         .UDpcu {
             background-color: rgb(@base) !important;
         }
 
         div#splash-screen {
-            background-color: rgb(@base) !important;
+            background: linear-gradient(180deg, rgb(@base) 0%, rgb(@mantle) 100%) !important;
         }
+
         ._ab6- {
             fill: rgb(@text) !important;
         }
+
         ._ac3o {
             background-color: rgba(@accent-color, .3) !important;
         }
+
         ._ac3p, .x1caxmr6 {
             background-color: rgb(@accent-color) !important;
         }
@@ -321,7 +414,7 @@
         }
 
         ._ac0k {
-            background: linear-gradient(180deg, rgba(@base, .8) 0%, rgba(@base, 0) 100%) !important;
+            background-color: linear-gradient(180deg, rgba(@base, .8) 0%, rgba(@base, 0) 100%) !important;
         }
 
         ._ac3p ._ac3q, ._ac3q {
@@ -332,58 +425,114 @@
             background-color: rgb(@text) !important;
         }
 
-        svg[aria-label="Play"] > svg > path {
+        svg[aria-label="Play"]>svg>path {
             fill: rgb(@text) !important;
         }
 
-        .x1vqgdyp {
+        /* .x1vqgdyp {
             height: 40mm !important;
-        }
-
-        .xisnujt {
+        } */
+        .xisnujt, ._abmp {
             color: rgb(@text) !important;
         }
+
+        ._acb4 {
+            color: rgb(@text) !important;
+            backface-color: rgb(@base) !important;
+        }
+
+        .xi81zsa {
+            color: rgb(@subtext0) !important;
+        }
+
+        .xgf5ljw {
+            background: rgb(@mantle) !important;
+        }
+
+        ._ac78, .x5n08af {
+            color: rgb(@text) !important;
+        }
+
+        .x173jzuc {
+            color: rgb(@accent-color) !important;
+        }
+
+        ._ac2_ {
+            background: rgb(@crust) !important;
+        }
+
+        div._aatk._aatl {
+            border-top-left-radius: 10px !important;
+            border-bottom-left-radius: 10px !important;
+        }
+
+        div._ae65, ._ae65, ._ae2r {
+            border-bottom-right-radius: 10px !important;
+        }
+
+        body>div.x1n2onr6.xzkaem6>div.x9f619.x1n2onr6.x1ja2u2z>div>div.x1uvtmcs.x4k7w5x.x1h91t0o.x1beo9mf.xaigb6o.x12ejxvf.x3igimt.xarpa2k.xedcshv.x1lytzrv.x1t2pt76.x7ja8zs.x1n2onr6.x1qrby5j.x1jfb8zj>div>div>div>div>div.xb88tzc.xw2csxc.x1odjw0f.x5fp0pe.x1qjc9v5.xjbqb8w.x1lcm9me.x1yr5g0i.xrt01vj.x10y3i5r.xr1yuqi.xkrivgy.x4ii5y1.x1gryazu.x15h9jz8.x47corl.xh8yej3.xir0mxb.x1juhsu6>div>article>div>div._ae65>div>div>div._aasi>div {
+            border-top-right-radius: 10px !important;
+        }
+
+
+        ._abmn {
+            background: rgb(@mantle) !important;
+        }
+
+        ._a9-- {
+            border-top-color: rgb(@crust) !important;
+        }
+
+        ._ab8i {
+            visibility: hidden !important;
+        }
+
+        ._ab8i::before {
+            content: "fart" !important;
+            visibility: visible !important;
+            font-size: 500% !important;
+            font-weight: 1000 !important;
+        }
+
+        .x1ixjvfu {
+            border-radius: 20px !important;
+        }
+
+        #mount_0_0_CP>div>div>div.x9f619.x1n2onr6.x1ja2u2z>div>div>div.x78zum5.xdt5ytf.x1t2pt76.x1n2onr6.x1ja2u2z.x10cihs4>div.x9f619.xvbhtw8.x78zum5.x168nmei.x13lgxp2.x5pf9jr.xo71vjh.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x1qjc9v5.x1oa3qoh.x1qughib>div.x9f619.xjbqb8w.x78zum5.x168nmei.x13lgxp2.x5pf9jr.xo71vjh.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1.x1dr59a3.xixxii4.x13vifvy.xeq5yr9.x1n327nk>div>div>div>div>div.x2lah0s.x1to3lk4.x1n2onr6.xh8yej3>div>div>span>div>a>div>div:nth-child(1)>div>div>svg>path, #mount_0_0_CP>div>div>div.x9f619.x1n2onr6.x1ja2u2z>div>div>div.x78zum5.xdt5ytf.x1t2pt76.x1n2onr6.x1ja2u2z.x10cihs4>div.x9f619.xvbhtw8.x78zum5.x168nmei.x13lgxp2.x5pf9jr.xo71vjh.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x1qjc9v5.x1oa3qoh.x1qughib>div.x9f619.xjbqb8w.x78zum5.x168nmei.x13lgxp2.x5pf9jr.xo71vjh.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1.x1dr59a3.xixxii4.x13vifvy.xeq5yr9.x1n327nk>div>div>div>div>div.x2lah0s.x1to3lk4.x1n2onr6.xh8yej3>div>div>a>div>div>svg>path {
+            fill: rgb(@red) !important;
+        }
+
+        ._aagv {
+            border-radius: 10px !important;
+        }
+
+        ._aagu {
+            background: transparent !important;
+        }
+
+        .xbgn65m, .xskfcea, .xssw1gd, .x1rx6pd {
+            border-color: rgb(@red) !important;
+        }
+
+        .x19g9edo {
+            background: rgb(@surface0) !important;
+        }
+
+        .x5ur3kl {
+            border-top-color: rgb(@crust) !important;
+        }
+
+        ._ac_u {
+            border-top-color: rgb(@text) !important;
+        }
+
+        * {
+            caret-color: rgb(@accent-color) !important;
+        }
     }
 
-    /*
-    * {
-        stroke: #cdd6f4 !important;
-    }
-    
-    
-    
-        a, a:visited {
-        color: #f38ba8 !important;
-    }
-        div#splash-screen {
-        background-color: #1e1e2e !important;
-    }
 
-    ._ab6- {
-        fill: #cdd6f4 !important;
-    }
-        ._ac3o {
-        background-color: #9399b2 !important;
-    }
-    ._ac3p, .x1caxmr6 {
-        background-color: #f38ba8 !important;
-    }
 
-    ._ac0s, ._ac0s:visited, ._ac0s:active, ._ac0s:hover, ._ac0s:focus {
-        color: #f38ba8 !important
-    }
-
-    ._ac0t {
-        color: #eba0ac !important;
-    }
-
-    .x5qyhuo {
-        background-color: #1e1e2e !important;
-    }
-        ._ac0k {
-        background: linear-gradient(180deg, rgba(30, 30, 46, .8) 0%, rgba(30, 30, 46, 0) 100%) !important;
-    }
-    */
     @catppuccin: {
         @latte: {
             @rosewater: 220, 138, 120;
@@ -413,6 +562,7 @@
             @mantle: 230, 233, 239;
             @crust: 220, 224, 232;
         }
+
         ;
         @frappe: {
             @rosewater: #f2d5cf;
@@ -442,6 +592,7 @@
             @mantle: #292c3c;
             @crust: #232634;
         }
+
         ;
         @macchiato: {
             @rosewater: #f4dbd6;
@@ -471,6 +622,7 @@
             @mantle: #1e2030;
             @crust: #181926;
         }
+
         ;
         @mocha: {
             @rosewater: 245, 224, 220;
@@ -500,6 +652,7 @@
             @mantle: 24, 24, 37;
             @crust: 17, 17, 27;
         }
+
         ;
     }
 }
