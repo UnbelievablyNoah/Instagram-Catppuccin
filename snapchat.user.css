@@ -12,7 +12,6 @@
 
 @preprocessor   less
 
-@var checkbox fontBold "Bold Font" 0
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappe", "macchiato:Macchiato", "mocha:Mocha*"]
 @var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red*", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
 ==/UserStyle== */
@@ -21,7 +20,6 @@
     /* snapchat.com */
     :root {
         #catppuccin(@darkFlavor, @accentColor);
-        #fontBold(@fontBold);
     }
 
     body::-webkit-scrollbar, *::-webkit-scrollbar {
@@ -30,15 +28,7 @@
         /* Hide  scrollbars */
     }
 
-
-    #fontBold(@fontBold) when (@fontBold =1) {
-        * {
-            font-weight: 700 !important;
-        }
-    }
-
-
-    html > body > main > div > div > .wHvEy, div.Fpg8t > div.Vbjsg.WJjwl > div > div > div > div.NZXMZ, div.Fpg8t > div.Vbjsg.WJjwl > div > div > div > div.k1IaM > div.kxqcc > button {
+    html > body > main > div > div > .wHvEy, div.Fpg8t > div.Vbjsg.WJjwl > div > div > div > div.NZXMZ, div.Fpg8t > div.Vbjsg.WJjwl > div > div > div > div.k1IaM > div.kxqcc > button, .Vhq_T {
         display: none !important;
         visibility: hidden !important;
     }
@@ -73,10 +63,10 @@
         @accent-color: @catppuccin[@@lookup][@@accent];
 
         /* apply everywhere */
-        :root[theme=dark], :root, *, & {
+        :root[theme=dark], :root, &, * {
 
             --sigIconPrimary: @text !important;
-            --sigIconTertiary: @subtext1 !important;
+            --sigIconTertiary: @yellow !important;
             --sigIconNegative: @maroon !important;
             --sigTextPrimary: @text !important;
             --sigTextPrimaryInverse: @base !important;
@@ -95,12 +85,12 @@
             --sigBackgroundMessageSavedHover: @crust !important;
             --sigMediaControlContainerBackground: rgba(255, 255, 255, 0.1) !important;
             --sigStartupFooterBackground: rgba(0, 0, 0, 0.05) !important;
-            --sigButtonPrimary: @sapphire !important;
-            --sigButtonPrimaryHover: @blue !important;
+            --sigButtonPrimary: @red !important;
+            --sigButtonPrimaryHover: @maroon !important;
             --sigButtonSecondary: @surface0 !important;
             --sigButtonSecondaryHover: @surface1 !important;
             --sigButtonSecondaryActive: @surface1 !important;
-            --sigButtonTertiary: #4e565f !important;
+            --sigButtonTertiary: @yellow !important;
             --sigButtonQuaternary: @text !important;
             --sigButtonInactive: @mantle !important;
             --sigButtonNegative: @maroon !important;
@@ -159,6 +149,23 @@
         .jvfCR {
             background-image: linear-gradient(180deg, transparent 0%, fadeout(@mantle, 50%) 50%, fadeout(@mantle, 100%) 100%) !important;
         }
+		
+		.Dozhe {
+			background: radial-gradient(@surface1 10%, @crust) !important;
+			border-color: @crust !important;
+		}
+		
+		.uALhC {
+			background: radial-gradient(@surface1 10%, @crust) !important;
+		}
+		
+		.IlZfX {
+			background: @mantle !important;
+		}
+		
+		.sT7ta {
+			background: fadeout(@base, 10%) !important;
+		}
 
         /* text highlight */
         ::selection {
